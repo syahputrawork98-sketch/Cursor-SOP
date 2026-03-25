@@ -1,40 +1,22 @@
-# RAK-02: Foundation & Core Rules
+# RAK-02: Aturan Inti & Hukum Koding (Bahasa Manusia)
 
-> [!NOTE]
-> This documentation follows the **PPM V4 Gold Standard**.
+## 🌟 Gampangnya...
+Rak ini adalah **Undang-Undang** di proyek Anda. Tanpa ini, AI akan membuat kekacauan.
 
-## 🔗 1. Source Link
-- [Cursor Rules Documentation](https://docs.cursor.com/custom-instructions/cursorrules)
+## 🏛️ Hukum Mandor (The Sacred Law)
+Agar Anda memegang kendali penuh, terapkan ritme ini:
+1.  **Fase [DISKUSI]**: Dilarang koding! Minta AI membuat rencana di chat.
+    - *Ketik:* `"Buat rencana arsitektur untuk fitur ini. Jangan ubah file apa pun dulu."*
+2.  **Fase [BLUEPRINT]**: Minta daftar file.
+    - *Ketik:* `"File mana saja yang akan berubah? Tunjukkan perubahannya dalam bentuk daftar."*
+3.  **Fase [EKSEKUSI]**: Setelah Anda setuju dengan rencana dan daftar filenya.
+    - *Ketik:* `"DISKUSI SELESAI. LAKUKAN MODIFIKASI."*
 
-## 📖 2. Brief & Detailed Explanation
-### Brief
-Konstitusi dasar dan hukum saklek dalam berinteraksi dengan AI: DISCUSS vs EXECUTE.
-
-### Detailed
-Menetapkan fondasi moral dan teknis bagi AI. Bagian ini membahas pentingnya peran Arsitek (User) dalam mengendalikan Pelaksana (AI), serta bagaimana `.cursorrules` digunakan sebagai alat penegakan aturan.
-
-## 💡 3. Analogy
-Seperti sistem hukum di sebuah negara; tanpa undang-undang yang jelas (.cursorrules), setiap individu (AI) akan bekerja menurut interpretasi masing-masing, menyebabkan kekacauan arsitektural.
-
-## 📊 4. Mermaid Diagram
-```mermaid
-stateDiagram-v2
-    [*] --> DISCUSS: default
-    DISCUSS --> EXECUTE: Explicit Command (Lakukan/Eksekusi)
-    EXECUTE --> DISCUSS: Completion/Review
-```
-
-## 🏛️ 8. Granular Structure (The Taxonomy)
-
-### [SR-01: Sacred Law](./SR-01-Sacred-Law/)
-- [BK-01: Discuss vs Execute](./SR-01-Sacred-Law/BK-01-Discuss-vs-Execute/README.md)
-- [BK-02: The Art of Blueprint](./SR-01-Sacred-Law/BK-02-The-Art-of-Blueprint/README.md)
-
-### [SR-02: Prompt Engineering Basics](./SR-02-Prompt-Engineering-Basics/)
-- [BK-01: Minimalist Prompting](./SR-02-Prompt-Engineering-Basics/BK-01-Minimalist-Prompting/README.md)
-- [BK-02: Role and Persona](./SR-02-Prompt-Engineering-Basics/BK-02-Role-and-Persona/README.md)
+## ⚠️ Pitfall Orng Awam
+Tergoda untuk langsung percaya saat AI bilang *"Oke, saya kerjakan"*. **JANGAN!** Selalu minta rencana tertulis dulu. Ini membedakan Anda (Arsitek) dengan user biasa (Korban Halusinasi AI).
 
 ---
 
-> [!IMPORTANT]
-> **Hukum Utama**: Dilarang melakukan eksekusi tanpa Blueprint yang telah disetujui di fase **DISCUSS**.
+### 🚀 Lanjut ke Mana?
+- [Lihat Detail Teknis (Expert)](../TECHNICAL-CORE/RAK-02-Foundation-Core-Rules/README.md)
+- [Protokol Blueprint Teknis (Expert)](../TECHNICAL-CORE/RAK-02-Foundation-Core-Rules/SR-03-Blueprint-Validation-Protocols/BK-01-The-Blueprint-Standard/README.md)

@@ -1,44 +1,22 @@
-# RAK-05: Ecosystem & Tooling
+# RAK-05: Peralatan AI (Bahasa Manusia)
 
-> [!NOTE]
-> This documentation follows the **PPM V4 Gold Standard**.
+## 🌟 Gampangnya...
+Rak ini adalah tentang **"Senjata AI"**. AI bisa buka file, jalankan program, dan baca dokumentasi otomatis.
 
-## 🔗 1. Source Link
-- [Cursor Extension Marketplace](https://cursor.com/extensions)
-- [CLI for AI Tools](https://github.com/features/copilot/cli)
+## 🥁 Ritme Harian (The Rhythm of Work)
+Jangan takut membiarkan AI menggunakan alatnya, tapi tetap awasi:
+1.  **Otomasi Aturan**: Gunakan `@.cursorrules` sebagai hukum tertinggi.
+    - *Ketik:* *"Selalu patuhi aturan di .cursorrules tanpa terkecuali."*
+2.  **Ritme Terminal**: Suruh AI mengecek hasil kodingnya sendiri.
+    - *Ketik:* *"Jalankan perintah 'npm test' atau 'cargo run' di terminal untuk memastikan tidak ada error."*
+3.  **Audit Izin**: Selalu perhatikan saat jendela "Allow terminal command?" muncul. Baca dulu sebelum klik Yes!
 
-## 📖 2. Brief & Detailed Explanation
-### Brief
-Ekosistem pendukung dan konfigurasi `.cursorrules` tingkat lanjut.
-
-### Detailed
-Menjelajahi alat-alat pihak ketiga, ekstensi marketplace, dan bagaimana menggunakan CLI untuk mempercepat interaksi dengan AI. Fokus pada kustomisasi lingkungan kerja untuk produktivitas maksimal.
-
-## 💡 3. Analogy
-Seperti mekanik balap (Programmer) yang harus memilih ban dan setelan mesin yang tepat (Tools & Config) untuk sirkuit yang berbeda-beda.
-
-## 📊 4. Mermaid Diagram
-```mermaid
-graph TD
-    A[Cursor IDE] --> B[.cursorrules]
-    A --> C[Extensions]
-    A --> D[External CLI]
-    B --> E[Behavior Control]
-    C --> F[Feature Enhancement]
-    D --> G[Workflow Automation]
-```
-
-## 🏛️ 8. Granular Structure (The Taxonomy)
-
-### [SR-01: Cursorrules Tuning](./SR-01-Cursorrules-Tuning/)
-- [BK-01: Global vs Project Rules](./SR-01-Cursorrules-Tuning/BK-01-Global-vs-Project-Rules/README.md)
-- [BK-02: Rule Hierarchy and Precedence](./SR-01-Cursorrules-Tuning/BK-02-Rule-Hierarchy-and-Precedence/README.md)
-
-### [SR-02: External AI Tooling](./SR-02-External-AI-Tooling/)
-- [BK-01: CLI for Agentic Workflows](./SR-02-External-AI-Tooling/BK-01-CLI-for-Agentic-Workflows/README.md)
-- [BK-02: Automated Testing Integrations](./SR-02-External-AI-Tooling/BK-02-Automated-Testing-Integrations/README.md)
+## 📋 Ceklis Mandor (The Checklist)
+- [ ] Apakah AI sudah menjalankan perintah cek (Lint/Test)?
+- [ ] Apakah AI sudah membaca dokumentasi terbaru?
+- [ ] Apakah perintah terminalnya aman (tidak menghapus file penting)?
 
 ---
 
-> [!TIP]
-> Alat yang kuat hanya berguna jika penggunanya tahu cara mengonfigurasinya dengan tepat.
+### 🚀 Lanjut ke Mana?
+- [Lihat Detail Teknis (Expert)](../TECHNICAL-CORE/RAK-05-Ecosystem-Tooling/README.md)

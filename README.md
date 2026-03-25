@@ -18,6 +18,9 @@ Tanpa tata kelola yang ketat, AI cenderung melakukan modifikasi serampangan yang
 
 ---
 
+## 🏛️ Arsitektur 8-Rak Universal
+SOP ini dibangun dengan rigoritas tinggi untuk memastikan orkestrasi AI yang stabil dan skalabel.
+
 ## 🧭 Visi Arsitektural: The Governance of Automated Labor
 Repositori ini membedah SOP Agentic melalui tiga lensa utama:
 1. **Communication Hierarchy**: Formasi dialog yang membagi peran AI antara Arsitek Strategis dan Pelaksana Taktis.

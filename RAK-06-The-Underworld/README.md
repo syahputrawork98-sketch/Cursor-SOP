@@ -1,42 +1,22 @@
-# RAK-06: The Underworld
+# RAK-06: Logika Tingkat Tinggi (Bahasa Manusia)
 
-> [!NOTE]
-> This documentation follows the **PPM V4 Gold Standard**.
+## 🌟 Gampangnya...
+Rak ini adalah tentang **"Kebijaksanaan AI"**. Bagaimana agar AI tidak terburu-buru mengambil keputusan yang salah.
 
-## 🔗 1. Source Link
-- [Chain-of-Thought Prompting (Google Research)](https://blog.research.google/2022/05/language-models-perform-reasoning-via.html)
-- [Tree-of-Thought (Princeton/DeepMind)](https://arxiv.org/abs/2305.10601)
+## 🥁 Ritme Harian (The Rhythm of Work)
+Gunakan teknik ini saat menghadapi error yang sulit atau fitur yang rumit:
+1.  **Ritme Corat-coret (CoT)**: Suruh AI berpikir dulu.
+    - *Ketik:* *"Pikirkan langkah demi langkah (Step-by-step) sebelum kamu menyentuh kode."*
+2.  **Ritme Debat (Tree of Thought)**: Suruh AI membandingkan.
+    - *Ketik:* *"Coba berikan 3 alternatif solusi untuk masalah ini, lengkap dengan kelebihan dan kekurangannya."*
+3.  **Ritme Evaluasi**: *"Dari 3 solusi tadi, mana yang paling aman untuk pemula seperti saya?"*
 
-## 📖 2. Brief & Detailed Explanation
-### Brief
-Teknik Prompting Tingkat Dewa: Chain-of-Thought, Tree-of-Thought, dan Few-Shot Patterns.
-
-### Detailed
-Memasuki area "Logika Hitam" di mana kita memaksa AI untuk berpikir ribuan kali lebih dalam sebelum memberikan output. Menggunakan pola-pola penalaran kompleks untuk memecahkan masalah bug yang sangat sulit atau desain sistem yang rumit.
-
-## 💡 3. Analogy
-Meminta detektif (AI) bukan hanya untuk menebak siapa pembunuhnya, tapi untuk menunjukkan papan bukti dengan semua benang merah (Chain-of-Thought) yang terhubung.
-
-## 📊 4. Mermaid Diagram
-```mermaid
-graph TD
-    A[Input] --> B[CoT: Step 1 Reasoning]
-    B --> C[CoT: Step 2 Reasoning]
-    C --> D[Verification]
-    D --> E[Final Answer]
-```
-
-## 🏛️ 8. Granular Structure (The Taxonomy)
-
-### [SR-01: Logic & Reasoning](./SR-01-Logic-and-Reasoning/)
-- [BK-01: Chain-of-Thought Deep Dive](./SR-01-Logic-and-Reasoning/BK-01-Chain-of-Thought-Deep-Dive/README.md)
-- [BK-02: Tree-of-Thought Orchestration](./SR-01-Logic-and-Reasoning/BK-02-Tree-of-Thought-Orchestration/README.md)
-
-### [SR-02: Advanced Prompt Patterns](./SR-02-Advanced-Prompt-Patterns/)
-- [BK-01: Few-Shot in Coding](./SR-02-Advanced-Prompt-Patterns/BK-01-Few-Shot-in-Coding/README.md)
-- [BK-02: Constraint-Based Prompting](./SR-02-Advanced-Prompt-Patterns/BK-02-Constraint-Based-Prompting/README.md)
+## 📋 Ceklis Mandor (The Checklist)
+- [ ] Apakah AI sudah menawarkan pilihan (bukan cuma satu cara)?
+- [ ] Apakah alasan AI masuk akal bagi Anda?
+- [ ] Apakah AI sudah membuktikan logikanya di chat sebelum koding?
 
 ---
 
-> [!CAUTION]
-> Teknik di Rak ini sangat kuat, namun gunakanlah dengan bijak. Terlalu banyak teknik penalaran pada masalah sepele hanya akan menghabiskan credit API Anda secara sia-sia.
+### 🚀 Lanjut ke Mana?
+- [Lihat Detail Teknis (Expert)](../TECHNICAL-CORE/RAK-06-The-Underworld/README.md)

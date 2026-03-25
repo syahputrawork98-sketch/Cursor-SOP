@@ -1,46 +1,22 @@
-# RAK-07: Specialization
+# RAK-07: Kerja Tim & Audit (Bahasa Manusia)
 
-> [!NOTE]
-> This documentation follows the **PPM V4 Gold Standard**.
+## 🌟 Gampangnya...
+Rak ini menjelaskan cara AI bekerja sebagai tim. Ada AI yang ngetik, ada AI yang ngecek (Reviewer). Ini biar gak ada bug.
 
-## 🔗 1. Source Link
-- [Multi-Agent System Orchestration](https://microsoft.github.io/autogen/)
-- [Automated Code Review Practices](https://www.atlassian.com/agile/software-development/code-reviews)
+## 🥁 Ritme Harian (The Rhythm of Work)
+Jangan biarkan AI bekerja sendirian tanpa ada yang "nyemprit" kesalahannya. Gunakan ritme ini:
+1.  **Selesai Koding**: Jangan langsung lanjut. Berhenti dan ketik: `"Audit kode ini sesuai @RAK-07. Cari 3 potensi error atau ketidakkonsistenan."`
+2.  **Cross-Check**: Panggil file referensi teknis: `"Bandingkan hasilmu dengan @TECHNICAL-CORE/RAK-07. Apakah sudah sesuai standar expert?"`
+3.  **Final Handover**: Minta AI memberikan ringkasan perubahan dalam satu kalimat santai sebelum Anda tutup sesi chat.
 
-## 📖 2. Brief & Detailed Explanation
-### Brief
-Orkestrasi Multi-Agen, Audit Otomatis, dan Guardrails Refactoring.
-
-### Detailed
-Membahas skenario tingkat lanjut di mana satu tugas dikerjakan oleh beberapa spesialis AI. Bagaimana membangun sistem audit otomatis untuk menjaga agar kualitas kode tidak menurun saat melakukan refactoring besar-besaran.
-
-## 💡 3. Analogy
-Seperti konduktor orkestra yang memastikan pemain biola, pianis, dan peniup saksofon (Agen-Agen Spesifik) bermain dalam harmoni yang sama (Goal Proyek).
-
-## 📊 4. Mermaid Diagram
-```mermaid
-graph TD
-    A[Master Agent] --> B[Implementation Agent]
-    A --> C[Reviewer Agent]
-    A --> D[Testing Agent]
-    B --> E{Audit Passed?}
-    C --> E
-    D --> E
-    E -->|No| B
-    E -->|Yes| F[Merge]
-```
-
-## 🏛️ 8. Granular Structure (The Taxonomy)
-
-### [SR-01: Multi-Agent Orchestration](./SR-01-Multi-Agent-Orchestration/)
-- [BK-01: The Chorus of Agents](./SR-01-Multi-Agent-Orchestration/BK-01-The-Chorus-of-Agents/README.md)
-- [BK-02: Role Separation: Coder, Reviewer, Tester](./SR-01-Multi-Agent-Orchestration/BK-02-Role-Separation-Coder-Reviewer-Tester/README.md)
-
-### [SR-02: Audit & Guardrails](./SR-02-Audit-and-Guardrails/)
-- [BK-01: Automated Review Workflows](./SR-02-Audit-and-Guardrails/BK-01-Automated-Review-Workflows/README.md)
-- [BK-02: Refactoring Guardrails](./SR-02-Audit-and-Guardrails/BK-02-Refactoring-Guardrails/README.md)
+## 📋 Ceklis Mandor (The Checklist)
+Sebagai pengawas (Mandor), pastikan poin ini centang sebelum Anda puas:
+- [ ] **Kebersihan**: Apakah kodenya rapi dan tidak ada "sampah" (komen gak penting)?
+- [ ] **Kebenaran**: Apakah kodenya sudah dites (Run Test)?
+- [ ] **Kamtibmas**: Apakah file yang diubah sudah dicatat di log?
 
 ---
 
-> [!IMPORTANT]
-> Kekuatan sesungguhnya bukan pada satu AI yang cerdas, melainkan pada ekosistem agen yang saling mengoreksi satu sama lain.
+### 🚀 Lanjut ke Mana?
+- [Dikte Tutorial Ngobrol](../RAK-00-The-Gateway/SR-02-Practice-Lab/BK-01-Conversation-Tutorial.md)
+- [Lihat Detail Teknis (Expert)](../TECHNICAL-CORE/RAK-07-Specialization/README.md)
