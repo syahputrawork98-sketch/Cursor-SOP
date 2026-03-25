@@ -29,8 +29,9 @@ graph LR
 ## ⚙️ 5. Under-the-hood Mechanics
 Menjelaskan sinkronisasi incremental: Indexer hanya memproses bagian file yang berubah (diffs) untuk meminimalisir beban CPU dan memori pada mesin pengguna.
 
-## 🧪 6. Practical Lab
-Mengecek status indeks dan folder `.cursor` di repositori Anda di `./examples/04-check-index.md`.
+## 📐 9. Chapter List
+1. [CH-01: Rust Indexer Deep-dive](./CH-01-Rust-Indexer-Deep-dive.md)
+2. [CH-02: Vector Search](./CH-02-Vector-Search.md)
 
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Ignoring .cursorignore**: Membiarkan file besar (seperti `node_modules` atau `build/`) terindeks, yang menyebabkan "polusi" pada hasil pencarian konteks.

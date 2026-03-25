@@ -28,6 +28,10 @@ graph LR
 ## ⚙️ 5. Under-the-hood Mechanics
 Bagaimana perhatian LLM (Attention Mechanism) terdistribusi. Semakin banyak kata yang tidak relevan, semakin rendah nilai perhatian (attention weight) pada instruksi kritis.
 
+## 📐 9. Chapter List
+1. [CH-01: Signal-to-Noise Ratio](./CH-01-Signal-to-Noise-Ratio.md)
+2. [CH-02: Prompt Compression](./CH-02-Prompt-Compression.md)
+
 ## 🧪 6. Practical Lab
 Latihan menyingkat prompt 200 kata menjadi 20 kata tanpa kehilangan makna di `./examples/02-prompt-refining.md`.
 

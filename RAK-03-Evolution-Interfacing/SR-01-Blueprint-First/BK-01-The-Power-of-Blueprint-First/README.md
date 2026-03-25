@@ -30,6 +30,10 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Menjelaskan bagaimana blueprint bertindak sebagai *Constraint Layer* dalam prompt engineering, mempersempit ruang pencarian (search space) LLM agar tidak melenceng ke solusi yang tidak efisien.
 
+## 📐 9. Chapter List
+1. [CH-01: Drafting Proposals](./CH-01-Drafting-Proposals.md)
+2. [CH-02: Reviewing Logic](./CH-02-Reviewing-Logic.md)
+
 ## 🧪 6. Practical Lab
 Perbandingan hasil AI antara "Direct Prompting" vs "Blueprint-First Prompting" di `./examples/03-blueprint-comparison.md`.
 

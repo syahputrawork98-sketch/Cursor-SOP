@@ -32,8 +32,8 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Menjelaskan teknik *Inter-Agent Communication* melalui *shared message history* dan bagaimana mengelola *Token Budget* saat menjalankan beberapa agen sekaligus.
 
-## 🧪 6. Practical Lab
-Simulasi diskusi multi-agen untuk fitur baru di `./examples/07-agent-chorus.md`.
+## 📐 9. Chapter List
+1. [CH-01: Chorus of Agents Workflow](./CH-01-Chorus-of-Agents-Workflow.md)
 
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Agent Groupthink**: Agen-agen yang terlalu cepat setuju satu sama lain tanpa melakukan kritik yang tajam.

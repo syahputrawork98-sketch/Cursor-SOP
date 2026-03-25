@@ -30,6 +30,9 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Menjelaskan bagaimana Cursor menggabungkan (merge) berbagai sumber instruksi ini menjadi satu *System Prompt* raksasa sebelum dikirim ke LLM.
 
+## 📐 9. Chapter List
+1. [CH-01: Global vs Local Precedence](./CH-01-Global-vs-Local-Precedence.md)
+
 ## 🧪 6. Practical Lab
 Latihan membuat file `.cursorrules` pertama untuk proyek kecil di `./examples/05-project-rules-setup.md`.
 

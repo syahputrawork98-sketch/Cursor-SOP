@@ -33,6 +33,9 @@ Bagaimana *Terminal Buffer* dibaca oleh AI dan diparsing untuk memahami apakah s
 ## 🧪 6. Practical Lab
 Latihan alur kerja "Search-Edit-Test" sepenuhnya lewat terminal di `./examples/05-cli-workflow.md`.
 
+## 📐 9. Chapter List
+1. [CH-01: CLI Workflows](./CH-01-CLI-Workflows.md)
+
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Blind Execution**: Menyuruh AI menjalankan perintah terminal yang berbahaya (seperti `rm -rf /`) tanpa memeriksa dampaknya.
 - **Ignoring Output**: Tidak menyuruh AI membaca pesan error terminal, sehingga ia terus mencoba langkah yang sama berulang kali.

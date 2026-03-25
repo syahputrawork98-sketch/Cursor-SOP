@@ -33,9 +33,12 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Bagaimana agen dapat mengorkestrasikan beberapa *inference calls* untuk bertindak sebagai "Generator" dan "Evaluator" dalam satu siklus ToT.
 
+## 📐 9. Chapter List
+1. [CH-01: Tree of Thought Orchestration](./CH-01-Tree-of-Thought-Orchestration.md)
+
 ## 🧪 6. Practical Lab
 Simulasi pemilihan arsitektur database menggunakan metode ToT di `./examples/06-tot-simulation.md`.
 
-## ⚠️ 7. Pitfalls & Anti-Patterns
+## ⚠️ 10. Pitfalls & Anti-Patterns
 - **Analysis Paralysis**: Mengeksplorasi terlalu banyak cabang sehingga tidak pernah sampai pada keputusan akhir.
 - **Biased Evaluation**: Agen evaluator yang terlalu permisif sehingga meloloskan solusi yang sebenarnya tidak optimal.

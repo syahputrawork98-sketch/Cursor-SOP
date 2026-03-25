@@ -31,6 +31,10 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Analisis tentang `.cursorrules` (System Prompt Injection), `.cursorignore` (Filtering logic), dan bagaimana *streaming edits* (UI overlay) dilakukan pada editor.
 
+## 📐 9. Chapter List
+1. [CH-01: The Shadow Context](./CH-01-The-Shadow-Context.md)
+2. [CH-02: RAG Orchestration](./CH-02-RAG-Orchestration.md)
+
 ## 🧪 6. Practical Lab
 Melihat performa indexing pada repo besar di `./examples/03-indexing-benchmark.md`.
 

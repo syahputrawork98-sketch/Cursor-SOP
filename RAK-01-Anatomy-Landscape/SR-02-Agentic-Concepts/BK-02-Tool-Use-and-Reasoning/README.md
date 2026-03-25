@@ -14,6 +14,10 @@ Bagaimana AI "menggenggam" alat dan berpikir secara sistematis sebelum bertindak
 ### Detailed
 Membahas teknik **Function Calling** dan pola **ReAct (Reason + Act)**. AI diajarkan untuk merumuskan pemikiran (Thought) terlebih dahulu, lalu memilih alat (Action), mengamati hasil (Observation), dan menyempurnakan langkah berikutnya. Ini adalah kunci dari stabilitas agen dalam mengerjakan tugas koding yang panjang.
 
+## 📐 9. Chapter List
+1. [CH-01: MCP Protocol](./CH-01-MCP-Protocol.md)
+2. [CH-02: Decision-Making Loop](./CH-02-Decision-Making-Loop.md)
+
 ## 💡 3. Analogy
 Seorang koki (Agen) yang membaca resep (Reasoning), lalu menggunakan pisau dan kompor (Tools) untuk memasak. Ia tidak langsung memasukkan semua bahan ke panci, tapi mencicipi (Observation) dan menyesuaikan bumbu secara bertahap.
 

@@ -36,3 +36,6 @@ Perbandingan akurasi AI dengan dan tanpa CoT pada masalah logika koding di `./ex
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Reasoning Hallucination**: AI menulis langkah penalaran yang terlihat logis tapi sebenarnya mengandung premis yang salah.
 - **Over-thought**: Menggunakan CoT untuk pertanyaan sangat sederhana (seperti "Apa itu variabel?"), yang hanya membuang-buang token dan waktu.
+
+## 📐 9. Chapter List
+1. [CH-01: Chain of Thought Optimization](./CH-01-Chain-of-Thought-Optimization.md)

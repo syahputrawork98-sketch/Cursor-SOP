@@ -32,6 +32,10 @@ stateDiagram-v2
 ## ⚙️ 5. Under-the-hood Mechanics
 Bagaimana `.cursorrules` secara teknis memberikan instruksi sistem (System Instruction) kepada model untuk membatasi kemampuannya dalam melakukan `write_to_file` sebelum kata kunci tertentu terdeteksi dalam prompt pengguna.
 
+## 📐 9. Chapter List
+1. [CH-01: The Mandatory Contract](./CH-01-The-Mandatory-Contract.md)
+2. [CH-02: Transition Triggers](./CH-02-Transition-Triggers.md)
+
 ## 🧪 6. Practical Lab
 Latihan menahan AI agar tidak langsung menulis kode di `./examples/02-holding-execution.md`.
 
