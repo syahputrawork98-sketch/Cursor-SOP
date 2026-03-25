@@ -34,6 +34,9 @@ Bagaimana LLM modern dilatih secara bersamaan pada ribuan bahasa pemrograman, ya
 ## 🧪 6. Practical Lab
 Membangun integrasi sederhana antara skrip Python dan server Node.js dengan bantuan AI di `./examples/08-polyglot-setup.md`.
 
+## 📐 9. Chapter List
+1. [CH-01: Multi-lang Interop](./CH-01-Multi-lang-Interop.md)
+
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Syntax Contamination**: AI menulis kode Python dengan gaya penulisan Java (misal: menggunakan camelCase berlebihan di Python).
 - **Broken Bridges**: AI memperbaiki satu sisi (misal: API di Backend) tapi lupa memperbarui sisi lainnya (misal: Client call di Frontend), menyebabkan sistem hancur di bagian sambungannya.

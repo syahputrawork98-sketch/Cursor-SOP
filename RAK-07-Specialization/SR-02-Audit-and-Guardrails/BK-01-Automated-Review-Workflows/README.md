@@ -32,9 +32,12 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Mekanisme pengiriman snippet file yang berubah ke API LLM disertai dengan "Checklist Konstitusi" dari `.cursorrules`.
 
-## 🧪 6. Practical Lab
-Menjalankan audit mandiri pada modul yang baru dibuat di `./examples/07-auto-audit.md`.
+## 📐 9. Chapter List
+1. [CH-01: Automated Audit Workflows](./CH-01-Automated-Audit-Workflows.md)
 
 ## ⚠️ 7. Pitfalls & Anti-Patterns
 - **Ignoring Warnings**: Menganggap audit AI sebagai "noise" dan mengabaikan saran perbaikannya.
 - **False Sense of Security**: Mengandalkan audit AI sepenuhnya tanpa melakukan review manual sama sekali.
+
+## 🧪 6. Practical Lab
+Menjalankan audit mandiri pada modul yang baru dibuat di `./examples/07-auto-audit.md`.

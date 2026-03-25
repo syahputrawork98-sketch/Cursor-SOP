@@ -30,6 +30,9 @@ graph TD
 ## ⚙️ 5. Under-the-hood Mechanics
 Teknik *Strangler Fig* untuk mengganti bagian-bagian kecil dari sistem lama secara bertahap menggunakan bantuan saran refactoring dari AI.
 
+## 📐 9. Chapter List
+1. [CH-01: Migration Strategy (Strangler Fig)](./CH-01-Migration-Strategy-Strangler-Fig.md)
+
 ## 🧪 6. Practical Lab
 Latihan migrasi repositori "Hello World" ke format 8-Rak di `./examples/08-migration-lab.md`.
 
