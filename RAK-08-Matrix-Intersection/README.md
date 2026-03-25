@@ -38,12 +38,12 @@ Sinkronisasi lintas hub di `./examples/08-matrix-sync.md`.
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Multi-Language Support](./SR-01-Multi-Language-Support/)
-- [BK-01: Polyglot AI Coding](./SR-01-Multi-Language-Support/BK-01-Polyglot-AI-Coding.md)
-- [BK-02: Universal Naming Conventions](./SR-01-Multi-Language-Support/BK-02-Universal-Naming-Conventions.md)
+- [BK-01: Polyglot AI Coding](./SR-01-Multi-Language-Support/BK-01-Polyglot-AI-Coding/README.md)
+- [BK-02: Universal Naming Conventions](./SR-01-Multi-Language-Support/BK-02-Universal-Naming-Conventions/README.md)
 
 ### [SR-02: System Interoperability](./SR-02-System-Interoperability/)
-- [BK-01: Project Migration SOP](./SR-02-System-Interoperability/BK-01-Project-Migration-SOP.md)
-- [BK-02: Final Integrity Check](./SR-02-System-Interoperability/BK-02-Final-Integrity-Check.md)
+- [BK-01: Project Migration SOP](./SR-02-System-Interoperability/BK-01-Project-Migration-SOP/README.md)
+- [BK-02: Final Integrity Check](./SR-02-System-Interoperability/BK-02-Final-Integrity-Check/README.md)
 
 ---
 

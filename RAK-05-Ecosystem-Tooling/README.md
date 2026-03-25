@@ -31,12 +31,12 @@ graph TD
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Cursorrules Tuning](./SR-01-Cursorrules-Tuning/)
-- [BK-01: Global vs Project Rules](./SR-01-Cursorrules-Tuning/BK-01-Global-vs-Project-Rules.md)
-- [BK-02: Rule Hierarchy and Precedence](./SR-01-Cursorrules-Tuning/BK-02-Rule-Hierarchy-and-Precedence.md)
+- [BK-01: Global vs Project Rules](./SR-01-Cursorrules-Tuning/BK-01-Global-vs-Project-Rules/README.md)
+- [BK-02: Rule Hierarchy and Precedence](./SR-01-Cursorrules-Tuning/BK-02-Rule-Hierarchy-and-Precedence/README.md)
 
 ### [SR-02: External AI Tooling](./SR-02-External-AI-Tooling/)
-- [BK-01: CLI for Agentic Workflows](./SR-02-External-AI-Tooling/BK-01-CLI-for-Agentic-Workflows.md)
-- [BK-02: Automated Testing Integrations](./SR-02-External-AI-Tooling/BK-02-Automated-Testing-Integrations.md)
+- [BK-01: CLI for Agentic Workflows](./SR-02-External-AI-Tooling/BK-01-CLI-for-Agentic-Workflows/README.md)
+- [BK-02: Automated Testing Integrations](./SR-02-External-AI-Tooling/BK-02-Automated-Testing-Integrations/README.md)
 
 ---
 

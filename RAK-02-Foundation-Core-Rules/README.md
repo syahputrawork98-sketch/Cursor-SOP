@@ -27,12 +27,12 @@ stateDiagram-v2
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Sacred Law](./SR-01-Sacred-Law/)
-- [BK-01: Discuss vs Execute](./SR-01-Sacred-Law/BK-01-Discuss-vs-Execute.md)
-- [BK-02: The Art of Blueprint](./SR-01-Sacred-Law/BK-02-The-Art-of-Blueprint.md)
+- [BK-01: Discuss vs Execute](./SR-01-Sacred-Law/BK-01-Discuss-vs-Execute/README.md)
+- [BK-02: The Art of Blueprint](./SR-01-Sacred-Law/BK-02-The-Art-of-Blueprint/README.md)
 
 ### [SR-02: Prompt Engineering Basics](./SR-02-Prompt-Engineering-Basics/)
-- [BK-01: Minimalist Prompting](./SR-02-Prompt-Engineering-Basics/BK-01-Minimalist-Prompting.md)
-- [BK-02: Role and Persona](./SR-02-Prompt-Engineering-Basics/BK-02-Role-and-Persona.md)
+- [BK-01: Minimalist Prompting](./SR-02-Prompt-Engineering-Basics/BK-01-Minimalist-Prompting/README.md)
+- [BK-02: Role and Persona](./SR-02-Prompt-Engineering-Basics/BK-02-Role-and-Persona/README.md)
 
 ---
 

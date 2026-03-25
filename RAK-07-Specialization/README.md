@@ -33,12 +33,12 @@ graph TD
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Multi-Agent Orchestration](./SR-01-Multi-Agent-Orchestration/)
-- [BK-01: The Chorus of Agents](./SR-01-Multi-Agent-Orchestration/BK-01-The-Chorus-of-Agents.md)
-- [BK-02: Role Separation: Coder, Reviewer, Tester](./SR-01-Multi-Agent-Orchestration/BK-02-Role-Separation-Coder-Reviewer-Tester.md)
+- [BK-01: The Chorus of Agents](./SR-01-Multi-Agent-Orchestration/BK-01-The-Chorus-of-Agents/README.md)
+- [BK-02: Role Separation: Coder, Reviewer, Tester](./SR-01-Multi-Agent-Orchestration/BK-02-Role-Separation-Coder-Reviewer-Tester/README.md)
 
 ### [SR-02: Audit & Guardrails](./SR-02-Audit-and-Guardrails/)
-- [BK-01: Automated Review Workflows](./SR-02-Audit-and-Guardrails/BK-01-Automated-Review-Workflows.md)
-- [BK-02: Refactoring Guardrails](./SR-02-Audit-and-Guardrails/BK-02-Refactoring-Guardrails.md)
+- [BK-01: Automated Review Workflows](./SR-02-Audit-and-Guardrails/BK-01-Automated-Review-Workflows/README.md)
+- [BK-02: Refactoring Guardrails](./SR-02-Audit-and-Guardrails/BK-02-Refactoring-Guardrails/README.md)
 
 ---
 

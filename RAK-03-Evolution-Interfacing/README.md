@@ -31,12 +31,12 @@ sequenceDiagram
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Blueprint-First](./SR-01-Blueprint-First/)
-- [BK-01: The Power of Blueprint-First](./SR-01-Blueprint-First/BK-01-The-Power-of-Blueprint-First.md)
-- [BK-02: Drafting Proposals](./SR-01-Blueprint-First/BK-02-Drafting-Proposals.md)
+- [BK-01: The Power of Blueprint-First](./SR-01-Blueprint-First/BK-01-The-Power-of-Blueprint-First/README.md)
+- [BK-02: Drafting Proposals](./SR-01-Blueprint-First/BK-02-Drafting-Proposals/README.md)
 
 ### [SR-02: Implementation Logs](./SR-02-Implementation-Logs/)
-- [BK-01: Logging the Evolution](./SR-02-Implementation-Logs/BK-01-Logging-the-Evolution.md)
-- [BK-02: Traceability and Review](./SR-02-Implementation-Logs/BK-02-Traceability-and-Review.md)
+- [BK-01: Logging the Evolution](./SR-02-Implementation-Logs/BK-01-Logging-the-Evolution/README.md)
+- [BK-02: Traceability and Review](./SR-02-Implementation-Logs/BK-02-Traceability-and-Review/README.md)
 
 ---
 

@@ -28,12 +28,12 @@ graph LR
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Indexing & Retrieval](./SR-01-Indexing-and-Retrieval/)
-- [BK-01: The Rust Indexer](./SR-01-Indexing-and-Retrieval/BK-01-The-Rust-Indexer.md)
-- [BK-02: Vector Embeddings in IDE](./SR-01-Indexing-and-Retrieval/BK-02-Vector-Embeddings-in-IDE.md)
+- [BK-01: The Rust Indexer](./SR-01-Indexing-and-Retrieval/BK-01-The-Rust-Indexer/README.md)
+- [BK-02: Vector Embeddings in IDE](./SR-01-Indexing-and-Retrieval/BK-02-Vector-Embeddings-in-IDE/README.md)
 
 ### [SR-02: Context Management](./SR-02-Context-Management/)
-- [BK-01: Context Window Limits](./SR-02-Context-Management/BK-01-Context-Window-Limits.md)
-- [BK-02: The Art of Context Selection](./SR-02-Context-Management/BK-02-The-Art-of-Context-Selection.md)
+- [BK-01: Context Window Limits](./SR-02-Context-Management/BK-01-Context-Window-Limits/README.md)
+- [BK-02: The Art of Context Selection](./SR-02-Context-Management/BK-02-The-Art-of-Context-Selection/README.md)
 
 ---
 

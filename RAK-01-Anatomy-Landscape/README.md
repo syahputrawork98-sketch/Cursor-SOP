@@ -1,4 +1,9 @@
-# RAK-01: Anatomy & Landscape
+## 🏛️ 8. Granular Structure (The Taxonomy)
+
+### [SR-01: History & Evolution](./SR-01-History-Evolution/)
+- [BK-01: From Autocomplete to Agents](./SR-01-History-Evolution/BK-01-From-Autocomplete-to-Agents/README/README.md)
+
+---
 
 > [!NOTE]
 > This documentation follows the **PPM V4 Gold Standard**.
@@ -33,14 +38,14 @@ Menjelaskan bagaimana indexing (RAG - Retrieval Augmented Generation) bekerja di
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: History & Evolution](./SR-01-History-Evolution/)
-- [BK-01: From Autocomplete to Agents](./SR-01-History-Evolution/BK-01-From-Autocomplete-to-Agents.md)
+- [BK-01: From Autocomplete to Agents](./SR-01-History-Evolution/BK-01-From-Autocomplete-to-Agents/README.md)
 
 ### [SR-02: Agentic Concepts](./SR-02-Agentic-Concepts/)
-- [BK-01: What is an Agent?](./SR-02-Agentic-Concepts/BK-01-What-is-an-Agent.md)
-- [BK-02: Tool Use and Reasoning](./SR-02-Agentic-Concepts/BK-02-Tool-Use-and-Reasoning.md)
+- [BK-01: What is an Agent?](./SR-02-Agentic-Concepts/BK-01-What-is-an-Agent/README/README.md)
+- [BK-02: Tool Use and Reasoning](./SR-02-Agentic-Concepts/BK-02-Tool-Use-and-Reasoning/README/README.md)
 
 ### [SR-03: IDE Architecture](./SR-03-IDE-Architecture/)
-- [BK-01: Cursor Internal Anatomy](./SR-03-IDE-Architecture/BK-01-Cursor-Internal-Anatomy.md)
+- [BK-01: Cursor Internal Anatomy](./SR-03-IDE-Architecture/BK-01-Cursor-Internal-Anatomy/README/README.md)
 
 ---
 

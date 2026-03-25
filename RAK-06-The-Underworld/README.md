@@ -29,12 +29,12 @@ graph TD
 ## 🏛️ 8. Granular Structure (The Taxonomy)
 
 ### [SR-01: Logic & Reasoning](./SR-01-Logic-and-Reasoning/)
-- [BK-01: Chain-of-Thought Deep Dive](./SR-01-Logic-and-Reasoning/BK-01-Chain-of-Thought-Deep-Dive.md)
-- [BK-02: Tree-of-Thought Orchestration](./SR-01-Logic-and-Reasoning/BK-02-Tree-of-Thought-Orchestration.md)
+- [BK-01: Chain-of-Thought Deep Dive](./SR-01-Logic-and-Reasoning/BK-01-Chain-of-Thought-Deep-Dive/README.md)
+- [BK-02: Tree-of-Thought Orchestration](./SR-01-Logic-and-Reasoning/BK-02-Tree-of-Thought-Orchestration/README.md)
 
 ### [SR-02: Advanced Prompt Patterns](./SR-02-Advanced-Prompt-Patterns/)
-- [BK-01: Few-Shot in Coding](./SR-02-Advanced-Prompt-Patterns/BK-01-Few-Shot-in-Coding.md)
-- [BK-02: Constraint-Based Prompting](./SR-02-Advanced-Prompt-Patterns/BK-02-Constraint-Based-Prompting.md)
+- [BK-01: Few-Shot in Coding](./SR-02-Advanced-Prompt-Patterns/BK-01-Few-Shot-in-Coding/README.md)
+- [BK-02: Constraint-Based Prompting](./SR-02-Advanced-Prompt-Patterns/BK-02-Constraint-Based-Prompting/README.md)
 
 ---
 
