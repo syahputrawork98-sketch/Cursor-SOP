@@ -150,18 +150,9 @@ Pakai ChatGPT GPT-4o (jika Pro sudah habis):
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Model Profiles**
-  - BK-01: Profil Lengkap Gemini (Pro, Flash, High)
-  - BK-02: Profil Lengkap OpenAI (GPT-4o, o1, o3, mini)
-- **SR-02: Decision Matrix**
-  - BK-01: Task-to-Model Mapping Guide
-  - BK-02: Platform Comparison Deep Dive
-- **SR-03: Use-Case Scenarios**
-  - BK-01: Skenario Koding (Frontend, Backend, Full-stack)
-  - BK-02: Skenario Non-Koding (Desain, Riset, Dokumentasi)
-- **SR-04: Platform Comparison**
-  - BK-01: Antigravity vs ChatGPT Head-to-Head
-- **SR-05: Quota Blending**
-  - BK-01: Quota Budgeting System
-  - BK-02: Flash Enhancement Techniques
-  - BK-03: Cross-Platform Fallback Protocol
+- **SR-01: Model Decision Matrix**
+  - [BK-01: Gemini vs ChatGPT](./SR-01-Model-Decision-Matrix/BK-01-Gemini-vs-ChatGPT/README.md)
+  - [BK-02: High-vs-Low Tier](./SR-01-Model-Decision-Matrix/BK-02-High-vs-Low-Tier/README.md)
+- **SR-02: Quota Blending Strategy**
+  - [BK-01: Blended Workflows](./SR-02-Quota-Blending-Strategy/BK-01-Blended-Workflows/README.md)
+  - [BK-02: Fallback Protocols](./SR-02-Quota-Blending-Strategy/BK-02-Fallback-Protocols/README.md)

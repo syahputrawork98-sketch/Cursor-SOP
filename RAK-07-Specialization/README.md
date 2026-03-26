@@ -96,9 +96,8 @@ AI akan sering menemukan masalahnya sendiri dengan teknik ini — dan memperbaik
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Multi-Agent Orchestration**
-  - BK-01: Executor vs Reviewer Pattern
-  - BK-02: Automated Review Workflows
-- **SR-02: Audit & Guardrails**
-  - BK-01: Code Audit Checklists
-  - BK-02: Refactoring Guardrails
+- **SR-01: Multi-Agent Patterns**
+  - [BK-01: Role Switching Patterns](./SR-01-Multi-Agent-Patterns/BK-01-Role-Switching-Patterns/README.md)
+  - [BK-02: The Critic Pattern](./SR-01-Multi-Agent-Patterns/BK-02-The-Critic-Pattern/README.md)
+- **SR-02: Review Rituals**
+  - [BK-01: Post-Execute Audit Ritual](./SR-02-Review-Rituals/BK-01-Post-Execute-Audit-Ritual/README.md)

@@ -97,10 +97,8 @@ graph TD
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: History & Evolution**
-  - BK-01: From Autocomplete to Agents
-- **SR-02: Agentic Concepts**
-  - BK-01: What is an Agent?
-  - BK-02: Tool Use and Reasoning
-- **SR-03: IDE Architecture**
-  - BK-01: Cursor Internal Anatomy (RAG, Context Window, Indexing)
+- **SR-01: The AI Revolution**
+  - [BK-01: History of Agents](./SR-01-The-AI-Revolution/BK-01-History-of-Agents/README.md)
+  - [BK-02: Modern Ecosystem](./SR-01-The-AI-Revolution/BK-02-Modern-Ecosystem/README.md)
+- **SR-02: AI as Partner Philosophy**
+  - [BK-01: The Cyborg Mindset](./SR-02-AI-as-Partner-Philosophy/BK-01-The-Cyborg-Mindset/README.md)

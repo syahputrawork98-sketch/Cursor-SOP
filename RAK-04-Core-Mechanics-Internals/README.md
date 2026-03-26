@@ -100,9 +100,8 @@ Ini terjadi karena context window sudah penuh — instruksi awal "terdorong kelu
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Context Window Management**
-  - BK-01: Context Window Limits per Model
-  - BK-02: Session Management Patterns
-- **SR-02: RAG & Indexing**
-  - BK-01: Cara Cursor Mengindeks Kodebase
-  - BK-02: Optimasi Struktur Folder agar AI Lebih Akurat
+- **SR-01: The Brain**
+  - [BK-01: Token Physics](./SR-01-The-Brain/BK-01-Token-Physics/README.md)
+  - [BK-02: Context Management](./SR-01-The-Brain/BK-02-Context-Management/README.md)
+- **SR-02: The Archives**
+  - [BK-01: How RAG Works](./SR-02-The-Archives/BK-01-How-RAG-Works/README.md)

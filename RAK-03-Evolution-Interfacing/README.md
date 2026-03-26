@@ -90,9 +90,8 @@ Di akhir setiap sesi kerja:
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Blueprint-First Approach**
-  - BK-01: Cara Membuat Blueprint Efektif
-  - BK-02: Template Proposal Teknis
-- **SR-02: Implementation Logs**
-  - BK-01: Dokumentasi Keputusan Arsitektural
-  - BK-02: Handover Notes antar Sesi
+- **SR-01: Blueprinting Mastery**
+  - [BK-01: Technique of Drafting](./SR-01-Blueprinting-Mastery/BK-01-Technique-of-Drafting/README.md)
+  - [BK-02: Validation Protocols](./SR-01-Blueprinting-Mastery/BK-02-Validation-Protocols/README.md)
+- **SR-02: Collaborative Workflows**
+  - [BK-01: Iterative Loops](./SR-02-Collaborative-Workflows/BK-01-Iterative-Loops/README.md)

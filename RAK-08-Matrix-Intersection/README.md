@@ -92,9 +92,6 @@ Idenya: Cursor-SOP ini menjadi **standar pusat**. Setiap `.cursorrules` di proye
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Cross-Project Standards**
-  - BK-01: Universal Naming Convention Guide
-  - BK-02: Template `.cursorrules` Lintas Proyek
-- **SR-02: Maintenance Protocols**
-  - BK-01: Spring Cleaning Playbook
-  - BK-02: Technical Debt Tracking
+- **SR-01: Consistency Management**
+  - [BK-01: Centralized SOP Management](./SR-01-Consistency-Management/BK-01-Centralized-SOP-Management/README.md)
+  - [BK-02: Sync Protocols](./SR-01-Consistency-Management/BK-02-Sync-Protocols/README.md)

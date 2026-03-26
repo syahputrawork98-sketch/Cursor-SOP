@@ -93,11 +93,6 @@ AI langsung mulai generate 200 baris kode.
 ---
 
 ### 🗂️ Sub-Rak & Buku
-- **SR-01: Sacred Law**
-  - BK-01: DISCUSS vs EXECUTE (Hukum Utama)
-  - BK-02: The Art of Blueprint (Cara membuat proposal yang baik)
-- **SR-02: Prompt Engineering Basics**
-  - BK-01: Minimalist Prompting
-  - BK-02: Role & Persona Setting
-- **SR-03: Blueprint Validation Protocols**
-  - BK-01: Multi-Phase Validation
+- **SR-01: The Sacred Law**
+  - [BK-01: Discuss vs Execute](./SR-01-The-Sacred-Law/BK-01-Discuss-vs-Execute/README.md)
+  - [BK-02: Mental Models](./SR-01-The-Sacred-Law/BK-02-Mental-Models/README.md)
