@@ -1,22 +1,104 @@
-# RAK-07: Kerja Tim & Audit (Bahasa Manusia)
+# RAK-07: Specialization — Kerja Tim AI & Audit Berlapis
 
 ## 🌟 Gampangnya...
-Rak ini menjelaskan cara AI bekerja sebagai tim. Ada AI yang ngetik, ada AI yang ngecek (Reviewer). Ini biar gak ada bug.
 
-## 🥁 Ritme Harian (The Rhythm of Work)
-Jangan biarkan AI bekerja sendirian tanpa ada yang "nyemprit" kesalahannya. Gunakan ritme ini:
-1.  **Selesai Koding**: Jangan langsung lanjut. Berhenti dan ketik: `"Audit kode ini sesuai @RAK-07. Cari 3 potensi error atau ketidakkonsistenan."`
-2.  **Cross-Check**: Panggil file referensi teknis: `"Bandingkan hasilmu dengan @TECHNICAL-CORE/RAK-07. Apakah sudah sesuai standar expert?"`
-3.  **Final Handover**: Minta AI memberikan ringkasan perubahan dalam satu kalimat santai sebelum Anda tutup sesi chat.
-
-## 📋 Ceklis Mandor (The Checklist)
-Sebagai pengawas (Mandor), pastikan poin ini centang sebelum Anda puas:
-- [ ] **Kebersihan**: Apakah kodenya rapi dan tidak ada "sampah" (komen gak penting)?
-- [ ] **Kebenaran**: Apakah kodenya sudah dites (Run Test)?
-- [ ] **Kamtibmas**: Apakah file yang diubah sudah dicatat di log?
+Bayangkan kamu punya tim: satu AI yang ngoding, satu lagi yang bertugas ngecek kodenya. Ini bukan khayalan — ini adalah **Multi-Agent Workflow** yang bisa kamu setup sekarang. RAK ini mengajarkan cara mengatur AI agar bekerja seperti tim profesional: ada yang draft, ada yang review, ada yang approve. Hasilnya: kode yang lebih bersih dengan lebih sedikit bug.
 
 ---
 
-### 🚀 Lanjut ke Mana?
-- [Dikte Tutorial Ngobrol](../RAK-00-The-Gateway/SR-02-Practice-Lab/BK-01-Conversation-Tutorial.md)
-- [Lihat Detail Teknis (Expert)](../TECHNICAL-CORE/RAK-07-Specialization/README.md)
+## 📖 Konteks & Sejarah
+
+Satu AI yang mengerjakan semuanya rentan bias terhadap output-nya sendiri — seperti penulis yang menjadi editor tulisannya sendiri. **Reviewer AI** adalah AI kedua (atau instance AI kedua) yang tugasnya spesifik: mencari kesalahan, inkonsistensi, dan celah keamanan. Teknik ini populer di tim senior engineer untuk gate quality.
+
+---
+
+## ⚙️ Cara Kerja
+
+### Multi-Agent Review Flow
+
+```mermaid
+graph LR
+    A[🧑 Kamu] -->|Task| B[AI Executor\nMenulis kode]
+    B -->|Output| C[AI Reviewer\nMengaudit kode]
+    C -->|Feedback| B
+    C -->|Approved| A
+```
+
+Dalam praktiknya dengan satu Cursor: AI Executor dan AI Reviewer bisa menjadi **dua sesi chat berbeda**, atau satu sesi dengan instruksi role-switch eksplisit.
+
+---
+
+## 🗺️ Kapan Mode Ini Relevan
+
+| Mode | Kapan Pakai |
+|---|---|
+| 🔍 **REVIEW** | Setelah setiap EXECUTE — wajib sebelum commit |
+| 🧪 **TEST** | Setelah review lolos — jalankan test |
+| 📝 **DOCUMENT** | Setelah kode final — dokumentasikan perubahan |
+
+---
+
+## 🛠️ Cara Pakai
+
+### Ritual Setelah Setiap EXECUTE (Wajib)
+
+```
+"Audit kode yang baru saja kamu tulis. 
+ Cari MINIMAL 3 hal: 
+ 1. Potensi error atau edge case yang tidak di-handle
+ 2. Inkonsistensi dengan gaya kode yang ada
+ 3. Hal yang bisa disederhanakan
+ Beri nilai 1-10 kualitas kode ini."
+```
+
+### Cross-Reference dengan Standar
+
+```
+"Bandingkan implementasimu dengan @RAK-02.
+ Apakah semua protokol DISCUSS/EXECUTE sudah diikuti?
+ Ada yang dilanggar?"
+```
+
+### Final Handover (Sebelum Tutup Sesi)
+
+```
+"Sebelum kita tutup sesi ini, buat ringkasan:
+ 1. File apa saja yang diubah (dengan alasannya)
+ 2. Apa yang masih belum selesai / technical debt
+ 3. Hal yang perlu diingat di sesi berikutnya"
+```
+
+---
+
+## 🧪 Lab Praktek
+
+**Skenario: Role-switch Executor → Reviewer dalam satu sesi**
+
+```
+# Setelah AI selesai coding:
+"Sekarang ganti peran. Bukan sebagai developer yang baru nulis kode ini,
+ tapi sebagai Senior Code Reviewer yang skeptis. 
+ Baca kode yang barusan kamu tulis. Apa yang akan kamu protes?"
+```
+
+AI akan sering menemukan masalahnya sendiri dengan teknik ini — dan memperbaikinya.
+
+---
+
+## ⚠️ Jebakan & Solusi
+
+| Jebakan | Gejala | Solusi |
+|---|---|---|
+| **Self-review bias** | AI review kodenya sendiri dan bilang "sudah bagus" | Minta AI ganti peran dulu sebelum review |
+| **Review terlalu umum** | AI bilang "kode sudah baik" tanpa detail | Paksa dengan: "Cari MINIMAL 3 masalah spesifik" |
+| **Lupa document** | Sesi ditutup tanpa log perubahan | Jadikan Final Handover sebagai ritual wajib |
+
+---
+
+### 🗂️ Sub-Rak & Buku
+- **SR-01: Multi-Agent Orchestration**
+  - BK-01: Executor vs Reviewer Pattern
+  - BK-02: Automated Review Workflows
+- **SR-02: Audit & Guardrails**
+  - BK-01: Code Audit Checklists
+  - BK-02: Refactoring Guardrails
