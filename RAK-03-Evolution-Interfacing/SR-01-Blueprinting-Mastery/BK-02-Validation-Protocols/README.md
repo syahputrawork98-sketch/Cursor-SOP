@@ -1,18 +1,18 @@
-# BK-02: Validation Protocols — Cara Mengecek Pekerjaan AI
+﻿# BK-02: Validation Protocols â€” Cara Mengecek Pekerjaan AI
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Setelah AI selesai koding, jangan langsung percaya. **Validation Protocols** adalah daftar cek fisik (*checklist*) untuk memastikan kodingan AI tidak hanya "jalan", tapi juga "benar". Ini seperti QC (Quality Control) di pabrik. Tanpa protokol ini, kamu mungkin akan menemukan bug 2 minggu kemudian saat aplikasi sudah dipakai orang banyak.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
-AI sering mengalami **"Hallucination of Success"** — dia merasa kodenya sudah benar padahal ada variabel yang tidak ada atau fungsi yang typo. Protokol validasi lahir dari kebutuhan untuk memutus rantai blunder ini dengan mewajibkan *double-check* fungsional sebelum sesi chat ditutup.
+AI sering mengalami **"Hallucination of Success"** â€” dia merasa kodenya sudah benar padahal ada variabel yang tidak ada atau fungsi yang typo. Protokol validasi lahir dari kebutuhan untuk memutus rantai blunder ini dengan mewajibkan *double-check* fungsional sebelum sesi chat ditutup.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### The Audit Ritual (Ritual Audit)
 
@@ -22,17 +22,17 @@ AI sering mengalami **"Hallucination of Success"** — dia merasa kodenya sudah 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Mode | Jenis Validasi |
 |---|---|
-| 📐 **BLUEPRINT** | Validasi Logika (Apakah masuk akal?). |
-| ⚡ **EXECUTE** | Validasi Sintaks (Apakah error?). |
-| 🔍 **REVIEW** | Validasi Arsitektur (Apakah rapi?). |
+| ðŸ“ **BLUEPRINT** | Validasi Logika (Apakah masuk akal?). |
+| âš¡ **EXECUTE** | Validasi Sintaks (Apakah error?). |
+| ðŸ” **REVIEW** | Validasi Arsitektur (Apakah rapi?). |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: The "Critique Me" Prompt
 
@@ -54,7 +54,7 @@ Pastikan file lain tidak "patah":
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Validasi AI-generated Code**
 
@@ -64,7 +64,7 @@ Pastikan file lain tidak "patah":
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -74,5 +74,6 @@ Pastikan file lain tidak "patah":
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-03/SR-02: Collaborative Workflows](../SR-02-Collaborative-Workflows/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-03/SR-02: Collaborative Workflows](../../SR-02-Collaborative-Workflows/BK-01-Iterative-Loops/README.md)
+

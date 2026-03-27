@@ -78,4 +78,4 @@ Tanamkan trigger di rules:
 ---
 
 ### 📖 Materi Selanjutnya
-- [BK-02: The Critic Pattern](./BK-02-The-Critic-Pattern.md)
+- [BK-02: The Critic Pattern](../BK-02-The-Critic-Pattern/README.md)

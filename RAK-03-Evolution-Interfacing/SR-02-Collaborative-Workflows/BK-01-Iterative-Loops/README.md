@@ -1,18 +1,18 @@
-# BK-01: Iterative Loops — Rahasia Koding Cepat Tanpa Error
+﻿# BK-01: Iterative Loops â€” Rahasia Koding Cepat Tanpa Error
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Jangan pernah mencoba membangun gedung 10 lantai dalam satu kali perintah. **Iterative Loops** adalah teknik membangun kodingan secara bertahap: Lantai 1 dulu, cek, baru lantai 2. Dengan cara ini, jika ada kesalahan di lantai 1, kamu bisa memperbaikinya segera sebelum kesalahan itu terkubur di bawah 9 lantai lainnya. Ini adalah workflow paling efisien untuk bekerja dengan AI Agent.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Kesalahan terbesar developer pemula saat memakai AI adalah memberikan instruksi yang terlalu raksasa (*One-Shot Mega-Prompt*). AI akan kelelahan, token habis, dan akurasi turun drastis. Teknik iteratif (perulangan kecil) merubah pengerjaan fitur besar menjadi serangkaian kemenangan kecil yang terjamin kualitasnya.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Siklus "Plan-Act-Review"
 
@@ -23,7 +23,7 @@ Kesalahan terbesar developer pemula saat memakai AI adalah memberikan instruksi 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Ukuran Task | Pendekatan | Risiko Kegagalan |
 |---|---|---|
@@ -33,7 +33,7 @@ Kesalahan terbesar developer pemula saat memakai AI adalah memberikan instruksi 
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik "Micro-Commit" Interaction
 
@@ -51,7 +51,7 @@ Gunakan pola ini saat membangun fitur moderat:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Membangun Form Registrasi yang Kompleks**
 
@@ -62,7 +62,7 @@ Gunakan pola ini saat membangun fitur moderat:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -72,5 +72,6 @@ Gunakan pola ini saat membangun fitur moderat:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-04: Core Mechanics & Internals](../../RAK-04-Core-Mechanics-Internals/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-04: Core Mechanics & Internals](../../../RAK-04-Core-Mechanics-Internals/README.md)
+

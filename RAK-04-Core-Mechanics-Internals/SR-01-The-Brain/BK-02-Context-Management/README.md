@@ -1,18 +1,18 @@
-# BK-02: Context Management — Teknik "Selective Mentions"
+﻿# BK-02: Context Management â€” Teknik "Selective Mentions"
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Jangan berikan AI seluruh perpustakaan kalau kamu cuma mau dia memperbaiki satu halaman buku. **Context Management** adalah seni memilih file, folder, dan informasi mana yang benar-benar dibutuhkan AI untuk menyelesaikan tugas saat ini. Menggunakan `@mention` yang terlalu banyak justru akan membuat AI "pusing" dan melakukan kesalahan (*Context Poisoning*).
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
-Model LLM modern memiliki fitur "Long Context", tapi riset menunjukkan adanya fenomena **"Lost in the Middle"** — AI sangat ingat bagian depan dan belakang chat, tapi sering lupa detail di bagian tengah. Dengan manajemen konteks yang ketat, kita memastikan informasi terpenting selalu berada di posisi yang "terlihat" jelas oleh AI.
+Model LLM modern memiliki fitur "Long Context", tapi riset menunjukkan adanya fenomena **"Lost in the Middle"** â€” AI sangat ingat bagian depan dan belakang chat, tapi sering lupa detail di bagian tengah. Dengan manajemen konteks yang ketat, kita memastikan informasi terpenting selalu berada di posisi yang "terlihat" jelas oleh AI.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Teknik "Selective Context"
 
@@ -23,7 +23,7 @@ Hanya panggil file yang masuk dalam 3 kategori ini:
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Apa yang Harus di-@mention? |
 |---|---|
@@ -33,7 +33,7 @@ Hanya panggil file yang masuk dalam 3 kategori ini:
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### "The 3-File Rule"
 
@@ -47,7 +47,7 @@ Jika chat terasa sudah berat dan AI mulai melantur:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Refactor yang Bersih**
 
@@ -58,7 +58,7 @@ Jika chat terasa sudah berat dan AI mulai melantur:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -68,5 +68,6 @@ Jika chat terasa sudah berat dan AI mulai melantur:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-04/SR-02: The Archives (RAG)](../SR-02-The-Archives/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-04/SR-02: The Archives (RAG)](../../SR-02-The-Archives/BK-01-How-RAG-Works/README.md)
+

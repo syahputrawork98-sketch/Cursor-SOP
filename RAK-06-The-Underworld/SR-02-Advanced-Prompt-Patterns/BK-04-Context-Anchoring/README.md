@@ -1,18 +1,18 @@
-# BK-01: Context Anchoring — Teknik "Melempar Jangkar" Konteks
+﻿# BK-01: Context Anchoring â€” Teknik "Melempar Jangkar" Konteks
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Pernahkah kamu bekerja lama dengan AI (sesi chat panjang), lalu tiba-tiba di tengah jalan AI mulai lupa aturan awal, cara kodingmu berubah, atau dia melakukan kesalahan yang sudah dilarang? Itu karena **Jendela Konteks**-nya mulai tergeser. **Context Anchoring** adalah cara melempar "jangkar" secara berkala agar AI tetap ingat identitas, aturan, dan tujuan awal proyekmu meski sesi sudah sangat panjang.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Setiap sesi chat dengan AI memiliki kuota memori terbatas (*Context Window*). Saat chat menjadi sangat panjang, bagian paling atas (awal diskusi) akan "didorong keluar" agar ada ruang untuk pertanyaan barumu. Masalahnya, di bagian atas itulah biasanya instruksi terpenting berada. Untuk mencegah ini, kita menggunakan teknik **Anchoring**.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Mekanisme "Memory Refresh"
 
@@ -20,7 +20,7 @@ Kita memasukkan kembali poin-poin krusial ke dalam chat secara periodik atau men
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Durasi Sesi | Gejala | Tindakan |
 |---|---|---|
@@ -30,7 +30,7 @@ Kita memasukkan kembali poin-poin krusial ke dalam chat secara periodik atau men
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: Manual Anchor (Setiap 10 Menit)
 
@@ -58,20 +58,20 @@ Minta AI melaporkan "siapa dia" sekarang:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: AI mulai mengerjakan secara "Dangkal"**
 
 Kamu menyadari AI tidak lagi menggunakan detail teknik yang kamu minta di awal.
 
-**Solusi — Throw Anchor:**
+**Solusi â€” Throw Anchor:**
 1. Hentikan task.
 2. Ketik: *"Kamu mulai kehilangan presisi. Lempar jangkar: Baca kembali @RAK-06 dan @instruksi-awal.md. Jelaskan bagian mana yang kamu lupakan."*
 3. AI akan me-recall dan memperbaiki gaya responsnya.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -81,5 +81,6 @@ Kamu menyadari AI tidak lagi menggunakan detail teknik yang kamu minta di awal.
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Chain-of-Thought Execution](../BK-02-Chain-of-Thought/README.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Chain-of-Thought Execution](../../SR-01-Logic-Reasoning/BK-01-Chain-of-Thought/README.md)
+

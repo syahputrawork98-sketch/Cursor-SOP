@@ -1,18 +1,18 @@
-# BK-02: Automated Testing Integrations — AI sebagai QA Engineer
+﻿# BK-02: Automated Testing Integrations â€” AI sebagai QA Engineer
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Menulis unit test itu membosankan, kan? Tapi sangat penting agar kodemu tidak pecah. **Automated Testing Integrations** adalah cara menggunakan AI untuk menulis, menjalankan, dan memperbaiki test secara otomatis. Bayangkan kamu punya asisten yang tugasnya khusus memastikan tidak ada bug yang lolos sebelum kodemu "naik cetak".
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dalam siklus pengembangan (SDLC), testing seringkali menjadi botol leher (bottleneck). AI sangat kuat dalam memahami logika fungsi dan memetakan semua kemungkinan input (edge cases). Dengan mengintegrasikan AI ke dalam workflow testing, tingkat kepercayaan diri (*confidence score*) pada setiap perubahan kode akan meningkat drastis.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Loop: Test -> Fail -> AI Fix -> Pass
 
@@ -23,17 +23,17 @@ Dalam siklus pengembangan (SDLC), testing seringkali menjadi botol leher (bottle
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Mode | Peran AI | Output |
 |---|---|---|
-| 🧪 **TEST** | Menulis unit test & integration test. | File `.test.ts` atau `.spec.js`. |
-| 🐛 **DEBUG** | Menganalisis log kegagalan test di terminal. | Fix plan & root cause analysis. |
-| 🔍 **REVIEW** | Memastikan cakupan test (*coverage*) sudah cukup. | Report coverage. |
+| ðŸ§ª **TEST** | Menulis unit test & integration test. | File `.test.ts` atau `.spec.js`. |
+| ðŸ› **DEBUG** | Menganalisis log kegagalan test di terminal. | Fix plan & root cause analysis. |
+| ðŸ” **REVIEW** | Memastikan cakupan test (*coverage*) sudah cukup. | Report coverage. |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: "Test-Driven Development (TDD) with AI"
 
@@ -58,7 +58,7 @@ Saat test gagal di terminal, paste error-nya ke AI:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Mengejar 100% Test Coverage**
 
@@ -69,7 +69,7 @@ Saat test gagal di terminal, paste error-nya ke AI:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -79,5 +79,6 @@ Saat test gagal di terminal, paste error-nya ke AI:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-05/SR-03: IDE Optimization](../SR-03-IDE-Optimization/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-05/SR-03: IDE Optimization](../../SR-02-IDE-Fine-Tuning/BK-01-Indexing-Optimization/README.md)
+

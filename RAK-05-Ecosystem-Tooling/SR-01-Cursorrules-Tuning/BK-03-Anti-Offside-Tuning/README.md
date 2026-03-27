@@ -1,18 +1,18 @@
-# BK-03: Anti-Offside Tuning — Menjinakkan AI yang "Sok Tahu"
+﻿# BK-03: Anti-Offside Tuning â€” Menjinakkan AI yang "Sok Tahu"
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Pernahkah kamu minta AI untuk "cuma buat rencana", tapi dia malah langsung menulis 200 baris kode yang merusak struktur? Itu namanya **Offside** (melewati batas). Fenomena ini sering terjadi pada model yang cepat seperti Gemini Flash. Buku ini mengajarkan teknik khusus untuk memasang "pagar betis" agar AI tidak bisa nyelonong sembarangan sebelum kamu beri izin.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Model AI seperti Flash dilatih untuk menjadi asisten yang sangat responsif. Dalam "pikirannya", cara terbaik membantu user adalah dengan memberikan kode secepat mungkin. Masalahnya, dia sering melompati fase diskusi yang krusial. Teknik **Anti-Offside Tuning** dikembangkan untuk meredam agresivitas ini tanpa mengurangi kecerdasan AI-nya.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Mekanisme "Mental Brake"
 
@@ -20,17 +20,17 @@ Kita menanamkan instruksi yang memaksa AI melakukan jeda (pause) sebelum melakuk
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Situasi | Mode | Kenapa Perlu Tuning? |
 |---|---|---|
-| **Eksplorasi Ide** | 🗣️ **DISCUSS** | Agar AI tidak langsung buat file dummy. |
-| **Mulai Proyek** | 📐 **BLUEPRINT** | Agar AI tidak langsung "Gasper" tanpa gambar teknik. |
-| **Debug Sulit** | 🔬 **ANALYZE** | Agar AI tidak tebak-tebak berhadiah dengan kode. |
+| **Eksplorasi Ide** | ðŸ—£ï¸ **DISCUSS** | Agar AI tidak langsung buat file dummy. |
+| **Mulai Proyek** | ðŸ“ **BLUEPRINT** | Agar AI tidak langsung "Gasper" tanpa gambar teknik. |
+| **Debug Sulit** | ðŸ”¬ **ANALYZE** | Agar AI tidak tebak-tebak berhadiah dengan kode. |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: CAPSLOCK Hammering (Untuk Isu Mendesak)
 
@@ -57,20 +57,20 @@ Minta AI untuk mengulangi instruksimu sebelum mulai:
 
 Berikan perbandingan agar AI paham bedanya:
 ```markdown
-## 🚨 ANTI-OFFSIDE PROTOCOL
+## ðŸš¨ ANTI-OFFSIDE PROTOCOL
 Example of WRONG behavior:
 User: "Add login page"
-AI: [Starts coding login.tsx] ❌ WRONG!
+AI: [Starts coding login.tsx] âŒ WRONG!
 
 Example of RIGHT behavior:
 User: "Add login page"
 AI: "I understand you want a login page. Here is the plan: [...] 
-     Should we move to BLUEPRINT?" ✅ RIGHT!
+     Should we move to BLUEPRINT?" âœ… RIGHT!
 ```
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Menghukum Flash yang Kebablasan**
 
@@ -81,7 +81,7 @@ AI: "I understand you want a login page. Here is the plan: [...]
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -91,5 +91,6 @@ AI: "I understand you want a login page. Here is the plan: [...]
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-05/SR-02: IDE Fine-Tuning](../SR-02-IDE-Fine-Tuning/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-05/SR-02: IDE Fine-Tuning](../../SR-02-IDE-Fine-Tuning/BK-01-Indexing-Optimization/README.md)
+

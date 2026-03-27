@@ -1,12 +1,12 @@
-# BK-01: History of Agents — Evolusi dari Chatbot ke Partner Otonom
+﻿# BK-01: History of Agents â€” Evolusi dari Chatbot ke Partner Otonom
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
-Dulu, AI itu seperti mesin pencari yang bisa diajak ngobrol — kamu tanya, dia jawab (Chatbot). Sekarang, AI sudah berubah menjadi **Agent**. Perbedaannya? Chatbot hanya "tahu", tapi Agent bisa "melakukan". Agent bisa membuka file, menjalankan terminal, dan memperbaiki bug-mu sendiri. Memahami sejarah ini penting agar kamu tahu bahwa AI sekarang bukan cuma buat ditanya, tapi buat didelegasikan tugas.
+Dulu, AI itu seperti mesin pencari yang bisa diajak ngobrol â€” kamu tanya, dia jawab (Chatbot). Sekarang, AI sudah berubah menjadi **Agent**. Perbedaannya? Chatbot hanya "tahu", tapi Agent bisa "melakukan". Agent bisa membuka file, menjalankan terminal, dan memperbaiki bug-mu sendiri. Memahami sejarah ini penting agar kamu tahu bahwa AI sekarang bukan cuma buat ditanya, tapi buat didelegasikan tugas.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 1. **Era Chat (2022-2023)**: Fokus pada *text-completion*. AI menjawab berdasarkan probabilitas kata berikutnya.
 2. **Era Tools (2024)**: AI mulai diberikan akses ke "Tools" (browser, terminal). Kelahiran Cursor dan tool-use API.
@@ -14,7 +14,7 @@ Dulu, AI itu seperti mesin pencari yang bisa diajak ngobrol — kamu tanya, dia 
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Transformasi Paradigm: Chat vs Agent
 
@@ -34,7 +34,7 @@ graph TD
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Fase | Mindset yang Dibutuhkan |
 |---|---|
@@ -43,23 +43,23 @@ graph TD
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Berhenti "Bertanya", Mulai "Memberi Objektif"
 
 Daripada bertanya hal teknis yang memicu jawaban panjang:
 ```markdown
-# ❌ GAYA LAMA (Chat):
+# âŒ GAYA LAMA (Chat):
 "Bagaimana cara membuat fungsi login di Node.js?"
 
-# ✅ GAYA BARU (Agentic):
+# âœ… GAYA BARU (Agentic):
 "Objektif: Implementasikan sistem login di @auth.ts. 
  Gunakan library JWT. Laporkan jika ada skema database yang perlu diubah."
 ```
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Melihat Agent Beraksi**
 
@@ -70,7 +70,7 @@ Daripada bertanya hal teknis yang memicu jawaban panjang:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -80,5 +80,6 @@ Daripada bertanya hal teknis yang memicu jawaban panjang:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Modern AI Ecosystem](./BK-02-Modern-Ecosystem.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Modern AI Ecosystem](../BK-02-Modern-Ecosystem/README.md)
+

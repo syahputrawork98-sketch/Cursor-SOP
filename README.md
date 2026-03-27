@@ -1,62 +1,138 @@
-# 📜 Cursor SOP: The Constitution of Agentic AI Coding
+# Cursor SOP: The Constitution of Agentic AI Coding
 
-> **"AI is the engine, but the SOP is the steering wheel; without a steering wheel, speed is just a liability."**
+> "AI is the engine, but the SOP is the steering wheel; without a steering wheel, speed is just a liability."
 
-## 📖 Apa itu Cursor SOP? (The What)
-**Cursor SOP** (Standard Operating Procedure) adalah kumpulan protokol dan aturan saklek yang mengatur bagaimana asisten AI (khususnya Cursor atau agen pengkodean serupa) berinteraksi dengan basis kode. Ini adalah lapisan konstitusi absolut yang membedakan antara AI sebagai "Mandor Ketik" yang buta patuh dengan AI sebagai "Konsultan Desain" yang terstruktur.
+## Gampangnya...
 
-Dalam ekosistem *The Learning Matrix*, Cursor-SOP mewakili paradigma **Agentic Governance & Communication Protocol**: tentang bagaimana menertibkan kekuatan mesin agar tunduk pada visi arsitektural manusia tanpa pengecualian.
+`Cursor-SOP` adalah perpustakaan aturan kerja untuk mengendalikan AI coding agar tidak asal cepat, tetapi tetap tunduk pada arah arsitektur yang jelas. Repo ini membantu kita membedakan kapan AI harus berdiskusi, kapan harus merancang, kapan boleh mengeksekusi, dan bagaimana hasilnya harus diaudit.
 
----
-
-## 🎯 Mengapa Kita Menggunakan Cursor SOP? (The Why)
-Tanpa tata kelola yang ketat, AI cenderung melakukan modifikasi serampangan yang merusak struktur:
-1.  **Architectural Integrity**: Mencegah AI menulis kode sebelum melalui komite penyampaian *Blueprint Konseptual*.
-2.  **Safety & Control**: Memisahkan fase diskusi (*The Why*) dari fase eksekusi (*The How*) melalui protokol **[DISCUSS]** dan **[EXECUTE]**.
-3.  **Efficiency**: Menghindari siklus perbaikan bug tanpa henti (*Endless Bug Chase*) dengan mewajibkan analisis mendalam sebelum tindakan.
-4.  **Reproduktibilitas**: Menjamin bahwa setiap instruksi manusia diproses melalui alur kerja yang standar, menghasilkan kualitas kode yang konsisten lintas departemen.
+Kalau AI tanpa SOP itu seperti tukang yang langsung membongkar tembok tanpa gambar kerja, maka repo ini adalah buku mandor yang memastikan semua tenaga mesin tetap berada di jalurnya.
 
 ---
 
-## 🏛️ Arsitektur 8-Rak Universal
-SOP ini dibangun dengan rigoritas tinggi untuk memastikan orkestrasi AI yang stabil dan skalabel.
+## Konteks & Sejarah
 
-## 🧭 Visi Arsitektural: The Governance of Automated Labor
-Repositori ini membedah SOP Agentic melalui tiga lensa utama:
-1. **Communication Hierarchy**: Formasi dialog yang membagi peran AI antara Arsitek Strategis dan Pelaksana Taktis.
-2. **Rule Enforcement**: Penggunaan berkas `/.cursorrules` global untuk mengekang sifat liar LLM.
-3. **The Gold Standard Enforcement**: Prosedur wajib untuk menyetorkan analisis proposal (Why, How, Practical, Pitfalls) sebelum modifikasi file.
+Ekosistem AI coding bergerak sangat cepat. Model makin kuat, context window makin panjang, dan tool makin agresif melakukan eksekusi. Tapi tanpa governance yang baik, kekuatan itu mudah berubah jadi sumber blunder:
+- AI menulis kode sebelum paham konteks,
+- bugfix melebar jadi refactor liar,
+- dokumentasi tertinggal,
+- kualitas antar proyek jadi tidak konsisten.
 
-## 🧬 Jalur Matriks: Matrix Cross-Path (The What)
-Sesuai konstitusi `00-Mapping-Road`, hub ini adalah persilangan:
-- **Sumbu-Y**: Semua Bahasa (Workflow Logic).
-- **Sumbu-X**: RAK-07 (Version Control) ➡️ **RAK-08 (AI Orchestration Hub)** ➡️ RAK-09 (Security).
-
-Di sini kita belajar **"Bahwa memberikan ekskavator raksasa kepada seseorang tanpa SIM adalah bahaya, dan membiarkan AI mengode tanpa SOP adalah kegagalan kepemimpinan teknis"**.
+Karena itu, `Cursor-SOP` dibangun sebagai **hub governance agentic coding**. Fungsinya bukan hanya mengajari prompt, tapi menetapkan cara kerja, guardrail, dan pola orkestrasi yang bisa dipakai ulang lintas proyek.
 
 ---
 
-## 🏗️ Struktur 8-Rak (The Taxonomy)
-1. **RAK-01: Anatomy & Landscape** (History of AI Coding, Agentic Workflow Concepts, IDE Landscapes).
-2. **RAK-02: Foundation & Core Rules** (The Sacred Law: DISCUSS vs EXECUTE, Minimalist Prompting, Role Definition).
-3. **RAK-03: Evolution & Interfacing** (Blueprint-First Approach, Drafting Proposals, Implementation Logs).
-4. **RAK-04: Core Mechanics & Internals** (Cursor internals, Indexing logic, codebase context window management).
-5. **RAK-05: Ecosystem & Tooling** (.cursorrules Configuration, Marketplace Extensions, CLI for AI).
-6. **RAK-06: The Underworld** (Advanced Prompting: Chain-of-Thought, Tree-of-Thought, Few-shot patterns in coding).
-7. **RAK-07: Specialization** (Multi-agent Orchestration, Automated Review Workflows, Refactoring Guardrails).
-8. **RAK-08: Matrix Intersection** (The Bridge: How SOP ensures consistent output across RAK-01 Multi-Language).
+## Cara Kerja
+
+### Tiga Lapisan Utama
+
+```mermaid
+graph TD
+    A[User Intent] --> B[Governance Rules]
+    B --> C[Workflow Modes]
+    C --> D[Execution and Review]
+    D --> E[Documentation and Reuse]
+```
+
+### Prinsip Arsitektural
+
+1. **Governance first**  
+   AI tidak boleh hanya cepat; ia harus patuh pada aturan kerja.
+2. **Discuss before execute**  
+   Mode default adalah diskusi, analisis, dan blueprinting.
+3. **One-tier unified knowledge**  
+   Semua RAK berada di root, tidak ada lagi pemisahan `TECHNICAL-CORE`.
+4. **Living documentation**  
+   SOP harus terus diupdate mengikuti tool, model, dan praktik lapangan.
+
+### Struktur Pengetahuan
+
+Repositori ini memakai hierarki:
+
+```text
+RAK -> SR -> BK -> CH -> SC
+```
+
+Dan seluruh isinya mengikuti governance di [docs/root-governance.md](./docs/root-governance.md).
 
 ---
 
-## 📊 Status Proyek
-Detail status per Rak dapat dilihat di [status.md](./status.md).
+## Kapan Digunakan
 
-> [!NOTE]
-> Proyek ini mengikuti standar dokumentasi **Gold Standard PPM V4**.
+Repo ini relevan ketika kamu ingin:
+- membuat AI lebih patuh dan tidak offside,
+- membedakan fase `DISCUSS`, `BLUEPRINT`, `PLAN`, `ANALYZE`, `EXECUTE`, `REVIEW`, `DEBUG`, `TEST`, `REFACTOR`, dan `DOCUMENT`,
+- menyusun standar kerja lintas proyek,
+- memahami cara memilih model, mode, dan workflow AI,
+- mengubah sesi AI menjadi sistem kerja yang bisa diwariskan.
 
-- `README.md` adalah pendahuluan ini.
-- `docs/` berisi dokumentasi pendukung (pemetaan, aturan, referensi).
-- `RAK-xx/` berisi semua rak utama.
+Kalau kebutuhanmu adalah governance, workflow, orkestrasi, dan standar operasi AI coding, mulai dari repo ini.
 
-## Dokumentasi
+---
+
+## Cara Pakai
+
+### Urutan Masuk yang Disarankan
+
+1. Mulai dari [RAK-00-The-Gateway](./RAK-00-The-Gateway/README.md) jika kamu butuh onboarding cepat.
+2. Baca [RAK-02-Foundation-Core-Rules](./RAK-02-Foundation-Core-Rules/README.md) untuk memahami hukum dasar.
+3. Masuk ke [RAK-03-Evolution-Interfacing](./RAK-03-Evolution-Interfacing/README.md) untuk blueprinting dan workflow umum.
+4. Gunakan [RAK-07-Specialization](./RAK-07-Specialization/README.md) untuk pola kerja spesialis, termasuk kurator workflow.
+5. Gunakan [RAK-09-AI-Arsenal](./RAK-09-AI-Arsenal/README.md) untuk pemilihan model, selector thinking, dan strategi kuota.
+
+### File Inti yang Wajib Dipahami
+
 - [docs/root-governance.md](./docs/root-governance.md)
+- [.cursorrules](./.cursorrules)
+- [status.md](./status.md)
+- [CHANGELOG.md](./CHANGELOG.md)
+
+### Peta Rak
+
+1. [RAK-00-The-Gateway](./RAK-00-The-Gateway/README.md): pintu masuk, quick start, glossary, living updates.
+2. [RAK-01-Anatomy-Landscape](./RAK-01-Anatomy-Landscape/README.md): evolusi AI coding dan mindset dasar.
+3. [RAK-02-Foundation-Core-Rules](./RAK-02-Foundation-Core-Rules/README.md): hukum dasar dan batas interaksi.
+4. [RAK-03-Evolution-Interfacing](./RAK-03-Evolution-Interfacing/README.md): blueprinting, workflow, dan sinkronisasi visi.
+5. [RAK-04-Core-Mechanics-Internals](./RAK-04-Core-Mechanics-Internals/README.md): RAG, token, context, indexing.
+6. [RAK-05-Ecosystem-Tooling](./RAK-05-Ecosystem-Tooling/README.md): `.cursorrules`, tooling, tuning, dan integrasi.
+7. [RAK-06-The-Underworld](./RAK-06-The-Underworld/README.md): prompt patterns, context anchoring, reasoning depth.
+8. [RAK-07-Specialization](./RAK-07-Specialization/README.md): multi-agent, review ritual, curator workflows.
+9. [RAK-08-Matrix-Intersection](./RAK-08-Matrix-Intersection/README.md): sinkronisasi standar lintas proyek.
+10. [RAK-09-AI-Arsenal](./RAK-09-AI-Arsenal/README.md): pemilihan model, ChatGPT usage, quota strategy.
+
+---
+
+## Lab Praktek
+
+**Skenario: Memulai proyek baru bersama AI**
+
+1. Baca [RAK-02-Foundation-Core-Rules](./RAK-02-Foundation-Core-Rules/README.md).
+2. Minta AI menganalisis struktur proyek dan menjelaskan pemahamannya.
+3. Paksa AI masuk ke fase `BLUEPRINT` sebelum coding.
+4. Gunakan `REVIEW` dan `DOCUMENT` di akhir sesi agar keputusan tidak hilang.
+
+**Skenario: Menstandarkan workflow lintas proyek**
+
+1. Jadikan repo ini sebagai pusat referensi.
+2. Sinkronkan aturan ke `.cursorrules` proyek aktif.
+3. Audit hasil AI secara berkala menggunakan ritual review dan documentation.
+
+---
+
+## Jebakan & Solusi
+
+| Jebakan | Gejala | Solusi |
+|---|---|---|
+| **Mengira repo ini hanya kumpulan prompt** | User mengambil potongan tips tanpa memahami sistemnya | Mulai dari root governance dan RAK dasar |
+| **Langsung loncat ke rak spesialis** | Workflow terasa berat atau kabur | Kuasai RAK-02 dan RAK-03 dulu |
+| **Dokumentasi pusat tidak diupdate** | SOP dan praktik lapangan mulai berbeda | Gunakan `CHANGELOG` dan living updates secara disiplin |
+| **Salah membaca struktur repo** | Masih mengira arsitekturnya two-tier atau 8-rak | Ikuti status terbaru: one-tier unified dengan `RAK-00` sampai `RAK-09` |
+
+---
+
+## Status Proyek
+
+Status ringkas dapat dilihat di [status.md](./status.md).
+
+> Catatan
+> Repositori ini mengikuti governance **PPM V6 Unified** dan terus berkembang sebagai living document.

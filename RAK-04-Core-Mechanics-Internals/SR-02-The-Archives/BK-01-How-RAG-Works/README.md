@@ -1,18 +1,18 @@
-# BK-01: How RAG Works — Rahasia AI "Melihat" Kodemu
+﻿# BK-01: How RAG Works â€” Rahasia AI "Melihat" Kodemu
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Bagaimana AI bisa tahu file mana yang relevan di ribuan file proyekmu, bahkan tanpa kamu panggil dengan `@`? Itu berkat **RAG (Retrieval-Augmented Generation)**. Bayangkan RAG adalah asisten perpustakaan yang sangat cepat. Saat kamu bertanya sesuatu, dia berlari ke gudang, mencari buku-buku yang mirip, membukanya, lalu membisikkan isinya ke telinga AI agar AI bisa menjawab dengan pintar.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 AI dasar hanya tahu ilmu sampai tanggal dia dilatih (misal: 2023). Dia tidak tahu kode yang baru kamu tulis tadi pagi. RAG adalah cara untuk **menyuntikkan pengetahuan baru** (kodemu) ke dalam proses berpikir AI secara real-time. Tanpa RAG, AI hanyalah seorang ahli koding yang amnesia terhadap proyekmu.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### The 3 Steps of RAG in Cursor
 
@@ -22,7 +22,7 @@ AI dasar hanya tahu ilmu sampai tanggal dia dilatih (misal: 2023). Dia tidak tah
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Aktivitas | Peran RAG |
 |---|---|
@@ -32,23 +32,23 @@ AI dasar hanya tahu ilmu sampai tanggal dia dilatih (misal: 2023). Dia tidak tah
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik "Semantic Search Optimization"
 
 Agar RAG mudah menemukan filemu, gunakan nama fungsi dan komentar yang **Deskriptif (Semantic)**.
 
 ```markdown
-# ❌ JELEK (RAG sulit mencari):
+# âŒ JELEK (RAG sulit mencari):
 function fn1(p) { ... } // buat simpan data
 
-# ✅ BAGUS (RAG sangat mudah mencari):
+# âœ… BAGUS (RAG sangat mudah mencari):
 function saveUserToDatabase(userData) { ... } // menyimpan data ke Postgres
 ```
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Bertanya tanpa @mention**
 
@@ -59,7 +59,7 @@ function saveUserToDatabase(userData) { ... } // menyimpan data ke Postgres
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -69,5 +69,6 @@ function saveUserToDatabase(userData) { ... } // menyimpan data ke Postgres
 
 ---
 
-### 📖 Materi Selanjutnya
-- [Fase Selanjutnya: Advanced & Arsenal (RAK-07 s/d 09)](../../status.md)
+### ðŸ“– Materi Selanjutnya
+- [Fase Selanjutnya: Advanced & Arsenal (RAK-07 s/d 09)](../../../status.md)
+

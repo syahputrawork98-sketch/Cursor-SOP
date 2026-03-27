@@ -1,18 +1,18 @@
-# BK-01: Indexing Optimization — Membuat AI "Melek" Struktur Proyek Kamu
+﻿# BK-01: Indexing Optimization â€” Membuat AI "Melek" Struktur Proyek Kamu
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Kenapa AI terkadang tidak "melihat" file yang baru saja kamu tambahkan, atau tidak paham hubungan antar file-mu? Itu karena **Indexing** belum beres. Indexing adalah cara AI membaca semua file-mu dan menjadikannya database internal. Buku ini mengajarkan cara merapikan proyek agar sistem RAG (sistem pencarian AI) bisa bekerja 100% akurat dan tidak pernah salah ambil referensi.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 AI tidak membaca seluruh disk komputermu setiap kali kamu bertanya. Dia membaca **Vector Database** (index) yang dibuatnya saat pertama kali kamu membuka folder. Jika struktur foldermu berantakan atau terlalu banyak file sampah (seperti `node_modules` atau file log besar), index AI akan "kotor" dan jawaban AI pun jadi tidak akurat.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Cara Kerja Semantic Indexing
 
@@ -23,17 +23,17 @@ AI tidak membaca seluruh disk komputermu setiap kali kamu bertanya. Dia membaca 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Mode | Pengaruh Indexing |
 |---|---|
-| 🔬 **ANALYZE** | Sangat butuh index akurat untuk mengaudit codebase. |
-| ⚡ **EXECUTE** | Memastikan AI tidak membuat file duplikat karena tidak "melihat" file asli. |
-| 🐛 **DEBUG** | Membantu AI menemukan hubungan antar file yang jauh. |
+| ðŸ”¬ **ANALYZE** | Sangat butuh index akurat untuk mengaudit codebase. |
+| âš¡ **EXECUTE** | Memastikan AI tidak membuat file duplikat karena tidak "melihat" file asli. |
+| ðŸ› **DEBUG** | Membantu AI menemukan hubungan antar file yang jauh. |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: .cursorignore (Saringan "Sampah")
 
@@ -80,7 +80,7 @@ Jika kamu merasa AI mulai "bodoh" padahal sudah ada rules:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: AI Tidak Melihat File Baru**
 
@@ -93,7 +93,7 @@ Jika kamu merasa AI mulai "bodoh" padahal sudah ada rules:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -103,5 +103,6 @@ Jika kamu merasa AI mulai "bodoh" padahal sudah ada rules:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-06: The Underworld (Context & Prompting)](../../RAK-06-The-Underworld/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-06: The Underworld (Context & Prompting)](../../../RAK-06-The-Underworld/README.md)
+

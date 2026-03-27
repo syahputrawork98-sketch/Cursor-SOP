@@ -1,18 +1,18 @@
-# BK-02: Modern AI Ecosystem — Peta Kekuatan Raksasa AI
+﻿# BK-02: Modern AI Ecosystem â€” Peta Kekuatan Raksasa AI
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Di dunia AI sekarang, ada tiga "kerajaan" besar yang masing-masing punya kelebihan: **OpenAI** (ChatGPT/GPT-4o), **Google** (Gemini), dan **Anthropic** (Claude). Di Cursor, kamu bisa berganti-ganti antar kerajaan ini. Buku ini menjelaskan siapa ahli dalam hal apa, agar kamu tidak salah pilih "pasukan" saat menghadapi masalah koding yang berbeda-beda.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dulu, GPT-4 adalah satu-satunya raja. Sekarang, persaingan sangat ketat. Gemini unggul dalam memori (bisa baca ribuan file), Claude unggul dalam gaya bahasa dan ketelitian koding, sementara GPT-4o adalah generalis yang sangat cepat. Perpustakaan ini (Cursor-SOP) dirancang agar kompatibel dengan ketiganya.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Peta Kekuatan (Ranking 2026)
 
@@ -24,7 +24,7 @@ Dulu, GPT-4 adalah satu-satunya raja. Sekarang, persaingan sangat ketat. Gemini 
 
 ---
 
-## 🗺️ Kapan Memilih Siapa?
+## ðŸ—ºï¸ Kapan Memilih Siapa?
 
 | Situasi | Gunakan |
 |---|---|
@@ -35,7 +35,7 @@ Dulu, GPT-4 adalah satu-satunya raja. Sekarang, persaingan sangat ketat. Gemini 
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik: Model Switching Pre-flight
 
@@ -51,7 +51,7 @@ Sebelum memulai sesi berat:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Membandingkan respons model**
 
@@ -62,7 +62,7 @@ Sebelum memulai sesi berat:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -72,5 +72,6 @@ Sebelum memulai sesi berat:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-01/SR-02: AI as Partner Philosophy](../SR-02-AI-as-Partner-Philosophy/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-01/SR-02: AI as Partner Philosophy](../../SR-02-AI-as-Partner-Philosophy/BK-01-The-Cyborg-Mindset/README.md)
+

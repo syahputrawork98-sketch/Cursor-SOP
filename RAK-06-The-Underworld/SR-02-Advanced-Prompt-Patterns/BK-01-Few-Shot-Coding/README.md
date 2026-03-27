@@ -1,18 +1,18 @@
-# BK-01: Few-Shot in Coding — Belajar Lewat Contoh Nyata
+﻿# BK-01: Few-Shot in Coding â€” Belajar Lewat Contoh Nyata
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 AI itu pintar meniru. Kalau kamu cuma bilang *"Bikin tombol"*, dia akan kasih tombol standar. Tapi kalau kamu kasih lihat 3 contoh tombol yang sudah kamu buat sebelumnya, dia akan buat tombol ke-4 dengan gaya yang **persis sama**. **Few-Shot** adalah teknik memberikan "beberapa contoh" (shots) di dalam prompt agar AI paham standar kualitas, gaya koding (*coding style*), dan pola yang kamu inginkan tanpa banyak penjelasan.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 LLM bekerja dengan mencocokkan pola. Memberikan 1-3 contoh (*few-shot*) jauh lebih efektif daripada menulis 10 halaman dokumentasi. Ini adalah cara tercepat untuk menangani proyek yang memiliki standar koding sangat spesifik atau library internal yang tidak diketahui oleh AI secara umum.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Zero-Shot vs Few-Shot
 
@@ -21,7 +21,7 @@ LLM bekerja dengan mencocokkan pola. Memberikan 1-3 contoh (*few-shot*) jauh leb
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Kegunaan Few-Shot |
 |---|---|
@@ -31,7 +31,7 @@ LLM bekerja dengan mencocokkan pola. Memberikan 1-3 contoh (*few-shot*) jauh leb
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: Pattern Injection (The "Shot" Method)
 
@@ -57,7 +57,7 @@ Always follow the GOOD example.
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Menyeragamkan cara penanganan Error Response**
 
@@ -70,7 +70,7 @@ Kamu mau semua API kamu mengembalikan format JSON yang sama.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -80,5 +80,6 @@ Kamu mau semua API kamu mengembalikan format JSON yang sama.
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Constraint-Based Prompting](./BK-02-Constraint-Based-Prompting.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Constraint-Based Prompting](../BK-02-Constraint-Based-Prompting/README.md)
+

@@ -1,18 +1,18 @@
-# BK-02: Tree-of-Thought (ToT) — Menjelajah Berbagai Cabang Solusi
+﻿# BK-02: Tree-of-Thought (ToT) â€” Menjelajah Berbagai Cabang Solusi
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Kalau **Chain-of-Thought (CoT)** adalah berpikir dalam satu garis lurus (satu solusi saja), maka **Tree-of-Thought (ToT)** adalah berpikir bercabang. AI disuruh membayangkan 3 atau 4 cara berbeda untuk menyelesaikan satu masalah, lalu dia sendiri yang mengaudit mana cara yang paling masuk akal sebelum memberitahukannya padamu. Ini seperti mengadakan rapat kabinet di dalam kepala AI.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dalam pemecahan masalah yang kompleks (seperti arsitektur software), seringkali tidak ada satu jawaban tunggal yang benar. ToT memungkinkan AI untuk melakukan eksplorasi (*exploration*) dan evaluasi (*self-evaluation*) secara bersamaan. Teknik ini terbukti mampu memecahkan masalah yang membuat AI "biasa" menyerah atau hanya berputar-putar.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Mekanisme Cabang Logika
 
@@ -23,17 +23,17 @@ Dalam pemecahan masalah yang kompleks (seperti arsitektur software), seringkali 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Mode | Kenapa ToT? |
 |---|---|---|
-| **Pilih Library** | 📐 **BLUEPRINT** | Bandingkan 3 library yang mirip. |
-| **Optimasi Performa** | ♻️ **REFACTOR** | Cari cara paling efisien buat memproses data. |
-| **Security Audit** | 🔬 **ANALYZE** | Bayangkan berbagai skenario serangan (attack vectors). |
+| **Pilih Library** | ðŸ“ **BLUEPRINT** | Bandingkan 3 library yang mirip. |
+| **Optimasi Performa** | â™»ï¸ **REFACTOR** | Cari cara paling efisien buat memproses data. |
+| **Security Audit** | ðŸ”¬ **ANALYZE** | Bayangkan berbagai skenario serangan (attack vectors). |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Template: ToT Protocol
 
@@ -59,7 +59,7 @@ Minta AI untuk berdebat dengan dirinya sendiri:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Memilih Database (SQL vs NoSQL)**
 
@@ -72,7 +72,7 @@ Kamu tidak yakin mau pakai PostgreSQL atau MongoDB.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -82,5 +82,6 @@ Kamu tidak yakin mau pakai PostgreSQL atau MongoDB.
 
 ---
 
-### 📖 Materi Selanjutnya
-- [SR-02: Advanced Prompt Patterns](../SR-02-Advanced-Prompt-Patterns/README.md)
+### ðŸ“– Materi Selanjutnya
+- [SR-02: Advanced Prompt Patterns](../../SR-02-Advanced-Prompt-Patterns/BK-01-Few-Shot-Coding/README.md)
+

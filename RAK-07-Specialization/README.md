@@ -1,103 +1,162 @@
-# RAK-07: Specialization — Kerja Tim AI & Audit Berlapis
+﻿# RAK-07: Specialization - Workflow Spesialis, Audit Berlapis, dan Kurator Kerja
 
-## 🌟 Gampangnya...
+## Gampangnya...
 
-Bayangkan kamu punya tim: satu AI yang ngoding, satu lagi yang bertugas ngecek kodenya. Ini bukan khayalan — ini adalah **Multi-Agent Workflow** yang bisa kamu setup sekarang. RAK ini mengajarkan cara mengatur AI agar bekerja seperti tim profesional: ada yang draft, ada yang review, ada yang approve. Hasilnya: kode yang lebih bersih dengan lebih sedikit bug.
+Kalau rak-rak sebelumnya mengajari hukum dasar dan cara kerja umum, maka `RAK-07` mengajari cara membuat AI bekerja seperti **spesialis**. Di sini AI tidak lagi diperlakukan sebagai satu tukang serba bisa, tetapi sebagai sistem kerja yang bisa dibagi per peran, per ritual, dan per jenis operasi.
 
----
-
-## 📖 Konteks & Sejarah
-
-Satu AI yang mengerjakan semuanya rentan bias terhadap output-nya sendiri — seperti penulis yang menjadi editor tulisannya sendiri. **Reviewer AI** adalah AI kedua (atau instance AI kedua) yang tugasnya spesifik: mencari kesalahan, inkonsistensi, dan celah keamanan. Teknik ini populer di tim senior engineer untuk gate quality.
+Makanya isi rak ini sekarang punya dua wajah yang saling melengkapi:
+- pola kerja **multi-agent dan reviewer**,
+- pola kerja **kurator workflow** untuk creation, repair, refactor, dan documentation.
 
 ---
 
-## ⚙️ Cara Kerja
+## Konteks & Sejarah
 
-### Multi-Agent Review Flow
+Begitu user mulai serius memakai AI untuk kerja teknis, masalahnya berubah. Bukan lagi sekadar "AI bisa bantu atau tidak", tetapi:
+- siapa yang mengeksekusi,
+- siapa yang mengkritik,
+- workflow mana yang dipakai,
+- kapan task harus diperlakukan sebagai pembangunan baru,
+- kapan ia harus diperlakukan sebagai pemulihan, pembenahan, atau dokumentasi.
+
+Tanpa spesialisasi seperti ini, satu AI cenderung:
+- menilai karyanya sendiri terlalu lunak,
+- bugfix melebar menjadi refactor,
+- refactor menyamar sebagai rewrite,
+- dokumentasi tertinggal dan pengetahuan sesi hilang.
+
+---
+
+## Cara Kerja
+
+### Dua Pilar Specialization
 
 ```mermaid
-graph LR
-    A[🧑 Kamu] -->|Task| B[AI Executor\nMenulis kode]
-    B -->|Output| C[AI Reviewer\nMengaudit kode]
-    C -->|Feedback| B
-    C -->|Approved| A
+graph TD
+    A[Task] --> B{Butuh spesialisasi apa?}
+    B --> C[Role Specialization\nExecutor Reviewer Critic]
+    B --> D[Workflow Specialization\nCreation Repair Refactor Documentation]
+    C --> E[Audit Berlapis]
+    D --> F[Kurator yang Tepat]
+    E --> G[Hasil Lebih Aman]
+    F --> G
 ```
 
-Dalam praktiknya dengan satu Cursor: AI Executor dan AI Reviewer bisa menjadi **dua sesi chat berbeda**, atau satu sesi dengan instruksi role-switch eksplisit.
+### Peta Isi Rak
 
----
-
-## 🗺️ Kapan Mode Ini Relevan
-
-| Mode | Kapan Pakai |
+| Pilar | Fungsi |
 |---|---|
-| 🔍 **REVIEW** | Setelah setiap EXECUTE — wajib sebelum commit |
-| 🧪 **TEST** | Setelah review lolos — jalankan test |
-| 📝 **DOCUMENT** | Setelah kode final — dokumentasikan perubahan |
+| **Multi-Agent Patterns** | Membagi kerja berdasarkan peran seperti executor, critic, reviewer |
+| **Review Rituals** | Memastikan hasil eksekusi diaudit sebelum dianggap selesai |
+| **Curator Workflows** | Memilih workflow yang tepat berdasarkan jenis operasi terhadap proyek |
 
 ---
 
-## 🛠️ Cara Pakai
+## Kapan Digunakan
 
-### Ritual Setelah Setiap EXECUTE (Wajib)
+RAK ini relevan ketika kamu mulai menghadapi pertanyaan seperti:
+- "Apakah saya butuh reviewer terpisah?"
+- "Task ini creation, repair, refactor, atau documentation?"
+- "Bagaimana caranya agar AI tidak memeriksa pekerjaannya sendiri dengan terlalu lunak?"
+- "Kapan saya harus mengganti workflow, bukan cuma mengganti prompt?"
 
-```
-"Audit kode yang baru saja kamu tulis. 
- Cari MINIMAL 3 hal: 
- 1. Potensi error atau edge case yang tidak di-handle
- 2. Inkonsistensi dengan gaya kode yang ada
- 3. Hal yang bisa disederhanakan
- Beri nilai 1-10 kualitas kode ini."
-```
-
-### Cross-Reference dengan Standar
-
-```
-"Bandingkan implementasimu dengan @RAK-02.
- Apakah semua protokol DISCUSS/EXECUTE sudah diikuti?
- Ada yang dilanggar?"
-```
-
-### Final Handover (Sebelum Tutup Sesi)
-
-```
-"Sebelum kita tutup sesi ini, buat ringkasan:
- 1. File apa saja yang diubah (dengan alasannya)
- 2. Apa yang masih belum selesai / technical debt
- 3. Hal yang perlu diingat di sesi berikutnya"
-```
+Kalau masalahmu sudah naik dari level aturan dasar ke level **orkestrasi spesialis**, maka ini rak yang tepat.
 
 ---
 
-## 🧪 Lab Praktek
+## Cara Pakai
 
-**Skenario: Role-switch Executor → Reviewer dalam satu sesi**
+### Jika Masalahmu Soal Peran
 
-```
-# Setelah AI selesai coding:
-"Sekarang ganti peran. Bukan sebagai developer yang baru nulis kode ini,
- tapi sebagai Senior Code Reviewer yang skeptis. 
- Baca kode yang barusan kamu tulis. Apa yang akan kamu protes?"
-```
+Masuk ke:
+- `SR-01: Multi-Agent Patterns`
 
-AI akan sering menemukan masalahnya sendiri dengan teknik ini — dan memperbaikinya.
+Gunakan saat kamu ingin membedakan:
+- executor,
+- critic,
+- reviewer,
+- atau role switching dalam satu sesi.
+
+### Jika Masalahmu Soal Audit
+
+Masuk ke:
+- `SR-02: Review Rituals`
+
+Gunakan saat kamu ingin menutup eksekusi dengan:
+- audit,
+- test,
+- handover,
+- evaluasi kualitas hasil.
+
+### Jika Masalahmu Soal Jenis Workflow
+
+Masuk ke:
+- `SR-03: Curator Workflows`
+
+Gunakan saat kamu perlu menentukan apakah task ini:
+- `Creation`
+- `Repair`
+- `Refactor`
+- `Documentation`
+
+### Aturan Praktis
+
+- jangan pakai satu workflow untuk semua jenis tugas,
+- jangan biarkan executor menjadi hakim tunggal pekerjaannya sendiri,
+- jika task berubah tujuan di tengah jalan, klasifikasikan ulang secara sadar.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## Lab Praktek
+
+**Skenario 1: Feature baru besar**
+
+Task:
+"Saya ingin membangun dashboard admin baru."
+
+Pendekatan yang tepat:
+- pakai `Curator Workflow: Creation`
+- lalu gunakan reviewer di akhir fase implementasi.
+
+**Skenario 2: Bug sulit**
+
+Task:
+"Login sering gagal saat traffic tinggi."
+
+Pendekatan yang tepat:
+- pakai `Curator Workflow: Repair`
+- jika fix sudah stabil, tutup dengan ritual review dan documentation.
+
+**Skenario 3: Refactor besar**
+
+Task:
+"Rapikan modul ini tanpa mengubah behavior."
+
+Pendekatan yang tepat:
+- pakai `Curator Workflow: Refactor`
+- tambahkan audit reviewer agar perubahan tetap aman.
+
+---
+
+## Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
-| **Self-review bias** | AI review kodenya sendiri dan bilang "sudah bagus" | Minta AI ganti peran dulu sebelum review |
-| **Review terlalu umum** | AI bilang "kode sudah baik" tanpa detail | Paksa dengan: "Cari MINIMAL 3 masalah spesifik" |
-| **Lupa document** | Sesi ditutup tanpa log perubahan | Jadikan Final Handover sebagai ritual wajib |
+| **Satu AI, semua peran** | Executor sekaligus reviewer sekaligus critic tanpa batas | Pisahkan peran atau pakai role switching yang eksplisit |
+| **Satu workflow untuk semua task** | Task creation diperlakukan seperti bugfix atau sebaliknya | Klasifikasikan task sebelum eksekusi |
+| **Audit terlambat** | Review baru dilakukan saat semuanya sudah telanjur besar | Jadikan review sebagai ritual per fase |
+| **Kurator tidak dikenali** | AI masuk mode yang salah sejak awal | Gunakan template klasifikasi task di SR-03 |
 
 ---
 
-### 🗂️ Sub-Rak & Buku
+### Sub-Rak & Buku
 - **SR-01: Multi-Agent Patterns**
   - [BK-01: Role Switching Patterns](./SR-01-Multi-Agent-Patterns/BK-01-Role-Switching-Patterns/README.md)
   - [BK-02: The Critic Pattern](./SR-01-Multi-Agent-Patterns/BK-02-The-Critic-Pattern/README.md)
 - **SR-02: Review Rituals**
   - [BK-01: Post-Execute Audit Ritual](./SR-02-Review-Rituals/BK-01-Post-Execute-Audit-Ritual/README.md)
+- **SR-03: Curator Workflows**
+  - [BK-01: Kurator untuk Project Baru](./SR-03-Curator-Workflows/BK-01-Kurator-untuk-Project-Baru/README.md)
+  - [BK-02: Kurator untuk Perbaikan dan Bugfix](./SR-03-Curator-Workflows/BK-02-Kurator-untuk-Perbaikan-dan-Bugfix/README.md)
+  - [BK-03: Kurator untuk Refactor dan Pembenahan](./SR-03-Curator-Workflows/BK-03-Kurator-untuk-Refactor-dan-Pembenahan/README.md)
+  - [BK-04: Kurator untuk Dokumentasi dan Handover](./SR-03-Curator-Workflows/BK-04-Kurator-untuk-Dokumentasi-dan-Handover/README.md)

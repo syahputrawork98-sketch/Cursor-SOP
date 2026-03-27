@@ -1,18 +1,18 @@
-# BK-01: Centralized SOP Management — Satu Aturan untuk Semua
+﻿# BK-01: Centralized SOP Management â€” Satu Aturan untuk Semua
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Saat kamu punya 20+ proyek (hub), mengupdate aturan di setiap proyek satu per satu adalah mimpi buruk. **Centralized SOP Management** adalah teknik di mana kamu menjadikan satu tempat (yakni repo **Cursor-SOP** ini) sebagai "Pusat Komando". Proyek-proyek lain hanya tinggal merujuk atau menyalin potongan kode dari sini. Dengan cara ini, jika kamu mengubah aturan koding, semua proyekmu bisa ikut terupdate dengan cepat.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
-Developer yang mengelola banyak repo sering mengalami **"Entropy"** — di mana satu repo punya aturan A, repo lain punya aturan B, dan akhirnya AI bingung saat pindah-pindah proyek. Memusatkan SOP (Standard Operating Procedure) adalah satu-satunya cara untuk menjaga kualitas output AI tetap tinggi di seluruh ekosistem kerjamu.
+Developer yang mengelola banyak repo sering mengalami **"Entropy"** â€” di mana satu repo punya aturan A, repo lain punya aturan B, dan akhirnya AI bingung saat pindah-pindah proyek. Memusatkan SOP (Standard Operating Procedure) adalah satu-satunya cara untuk menjaga kualitas output AI tetap tinggi di seluruh ekosistem kerjamu.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### The "Hub-and-Spoke" Model
 
@@ -22,7 +22,7 @@ Developer yang mengelola banyak repo sering mengalami **"Entropy"** — di mana 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Jumlah Proyek | Rekomendasi |
 |---|---|
@@ -32,7 +32,7 @@ Developer yang mengelola banyak repo sering mengalami **"Entropy"** — di mana 
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik: Versioned Snippets
 
@@ -49,7 +49,7 @@ Setiap kali kamu mulai proyek baru, panggil AI:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Update aturan di seluruh proyek**
 
@@ -60,7 +60,7 @@ Setiap kali kamu mulai proyek baru, panggil AI:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -70,5 +70,6 @@ Setiap kali kamu mulai proyek baru, panggil AI:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Sync Protocols](./BK-02-Sync-Protocols.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Sync Protocols](../BK-02-Sync-Protocols/README.md)
+

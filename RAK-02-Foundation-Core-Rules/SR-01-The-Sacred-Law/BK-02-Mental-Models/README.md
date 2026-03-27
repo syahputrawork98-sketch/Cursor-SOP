@@ -1,18 +1,18 @@
-# BK-02: Mental Models — Menyamakan Frekuensi dengan AI
+﻿# BK-02: Mental Models â€” Menyamakan Frekuensi dengan AI
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
-AI tidak berpikir seperti manusia. Dia tidak punya "akal sehat" (common sense), tapi dia punya "logika probabilitas" yang luar biasa. **Mental Model** adalah cara kamu memahami "cara pikir" AI tersebut. Saat kamu paham bahwa AI adalah sebuah sistem yang memprediksi kata berikutnya berdasarkan konteks, kamu tidak akan lagi marah saat dia salah — tapi kamu akan memperbaiki konteksnya.
+AI tidak berpikir seperti manusia. Dia tidak punya "akal sehat" (common sense), tapi dia punya "logika probabilitas" yang luar biasa. **Mental Model** adalah cara kamu memahami "cara pikir" AI tersebut. Saat kamu paham bahwa AI adalah sebuah sistem yang memprediksi kata berikutnya berdasarkan konteks, kamu tidak akan lagi marah saat dia salah â€” tapi kamu akan memperbaiki konteksnya.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Kebanyakan orang gagal menggunakan AI karena mereka memperlakukan AI seperti manusia ("Kamu tahu kan maksud saya?"). AI tidak tahu maksudmu kecuali kamu menuliskannya. Memahami konsep **Prompting as Architecture** (Prompting sebagai kegiatan membangun struktur) akan merubah hasil kerjamu dari 50% benar menjadi 99% benar.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### 3 Mental Model Utama
 
@@ -22,7 +22,7 @@ Kebanyakan orang gagal menggunakan AI karena mereka memperlakukan AI seperti man
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Mental Model | Kapan Pakai |
 |---|---|
@@ -32,7 +32,7 @@ Kebanyakan orang gagal menggunakan AI karena mereka memperlakukan AI seperti man
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik "Contextual Clarity"
 
@@ -44,7 +44,7 @@ Jangan berasumsi AI tahu apa yang ada di kepalamu. Gunakan rumus ini:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Memperbaiki "Miskomunikasi"**
 
@@ -55,7 +55,7 @@ Jangan berasumsi AI tahu apa yang ada di kepalamu. Gunakan rumus ini:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -65,5 +65,6 @@ Jangan berasumsi AI tahu apa yang ada di kepalamu. Gunakan rumus ini:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-03: Evolution & Interfacing](../../RAK-03-Evolution-Interfacing/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-03: Evolution & Interfacing](../../../RAK-03-Evolution-Interfacing/README.md)
+

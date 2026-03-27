@@ -1,18 +1,18 @@
-# BK-01: CLI for Agentic Workflows — Menjalankan AI dari Terminal
+﻿# BK-01: CLI for Agentic Workflows â€” Menjalankan AI dari Terminal
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Kenapa harus bolak-balik buka aplikasi Cursor kalau kamu bisa menyuruh AI bekerja langsung dari terminal (Command Prompt/PowerShell)? **CLI for Agentic Workflows** adalah cara menggunakan perintah teks untuk memicu aksi AI yang otomatis, seperti melakukan git commit, melakukan audit kode, atau bahkan membuat draft PR (Pull Request) tanpa kamu harus ngetik satu-satu.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
-Era koding modern bergeser dari "Chat-based" ke "Terminal-based". Với adanya CLI (Command Line Interface) seperti `cursor` atau integrasi agent di terminal, kamu bisa menggabungkan kekuatan AI dengan skrip otomasi. Ini adalah dasar dari workflow "Senior Engineer" yang efisien: biarkan skrip yang memanggil AI untuk pekerjaan rutin.
+Era koding modern bergeser dari "Chat-based" ke "Terminal-based". Vá»›i adanya CLI (Command Line Interface) seperti `cursor` atau integrasi agent di terminal, kamu bisa menggabungkan kekuatan AI dengan skrip otomasi. Ini adalah dasar dari workflow "Senior Engineer" yang efisien: biarkan skrip yang memanggil AI untuk pekerjaan rutin.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### AI-Terminal Synergy
 
@@ -22,7 +22,7 @@ Era koding modern bergeser dari "Chat-based" ke "Terminal-based". Với adanya C
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Alat / Command | Keuntungan |
 |---|---|---|
@@ -32,7 +32,7 @@ Era koding modern bergeser dari "Chat-based" ke "Terminal-based". Với adanya C
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: Shortcut Cursor CLI
 
@@ -58,7 +58,7 @@ function audit-ai {
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Membuat Pesan Commit AI**
 
@@ -70,7 +70,7 @@ Daripada ngetik `git commit -m "fix"`, gunakan workflow ini:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -80,5 +80,6 @@ Daripada ngetik `git commit -m "fix"`, gunakan workflow ini:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Automated Testing Integrations](./BK-02-Automated-Testing.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Automated Testing Integrations](../BK-02-Automated-Testing/README.md)
+

@@ -1,39 +1,39 @@
-# BK-02: Chain-of-Thought (CoT) — Memaksa AI Berpikir Sebelum Menulis
+﻿# BK-02: Chain-of-Thought (CoT) â€” Memaksa AI Berpikir Sebelum Menulis
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Pernahkah kamu merasa AI menjawab terlalu cepat dan hasilnya "setengah matang"? Itu karena AI langsung menebak kata berikutnya tanpa melalui proses perenungan. **Chain-of-Thought (CoT)** adalah teknik memaksa AI untuk "menulis coret-coretan" di kertas buram (menuliskan alur pikirannya) sebelum dia memberikan jawaban akhir. Ini adalah cara paling ampuh untuk meningkatkan kecerdasan AI dalam tugas logika yang sulit.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dalam riset AI, ditemukan bahwa jika kita menyuruh AI *"Think step by step"*, akurasi jawabannya meningkat drastis. Ini karena AI menggunakan token responsnya untuk memproses logika secara serial. Tanpa CoT, AI seperti orang yang menjawab kuis secara spontan; dengan CoT, AI seperti orang yang mengerjakan soal matematika di papan tulis.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Perbedaan Tanpa vs Dengan CoT
 
-**Tanpa CoT**: Input → Output (Seringkali dangkal)
-**Dengan CoT**: Input → **Langkah 1 → Langkah 2 → Langkah 3** → Output (Deep Reasoning)
+**Tanpa CoT**: Input â†’ Output (Seringkali dangkal)
+**Dengan CoT**: Input â†’ **Langkah 1 â†’ Langkah 2 â†’ Langkah 3** â†’ Output (Deep Reasoning)
 
 Dengan menulis setiap langkah, AI bisa mengevaluasi "langkah sebelumnya" untuk memastikan langkah berikutnya benar. Jika ada kesalahan di Langkah 1, dia bisa mengoreksinya di Langkah 2 sebelum sampai ke Output akhir.
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Mode | Urgensi CoT |
 |---|---|---|
-| **Debugging** | 🐛 **DEBUG** | **VVIP** (Wajib trace alur error). |
-| **Arsitektur** | 📐 **BLUEPRINT** | **Tinggi** (Cek trade-off desain). |
-| **Refactoring** | ♻️ **REFACTOR** | **Tinggi** (Cek dependensi yang terpengaruh). |
+| **Debugging** | ðŸ› **DEBUG** | **VVIP** (Wajib trace alur error). |
+| **Arsitektur** | ðŸ“ **BLUEPRINT** | **Tinggi** (Cek trade-off desain). |
+| **Refactoring** | â™»ï¸ **REFACTOR** | **Tinggi** (Cek dependensi yang terpengaruh). |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: The Step-by-Step Trigger
 
@@ -66,7 +66,7 @@ Paksa AI untuk memberikan referensi baris kode:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Bug yang sulit ditemukan**
 
@@ -79,7 +79,7 @@ Kamu punya error *"Undefined is not a function"*, AI biasanya langsung memberi t
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -89,5 +89,6 @@ Kamu punya error *"Undefined is not a function"*, AI biasanya langsung memberi t
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-06/SR-02: Context Management](../SR-02-Context-Management/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-06/SR-02: Context Management](../../SR-02-Advanced-Prompt-Patterns/BK-03-Context-Management-Playbook/README.md)
+

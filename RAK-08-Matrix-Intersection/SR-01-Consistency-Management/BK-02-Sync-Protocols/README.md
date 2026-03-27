@@ -1,18 +1,18 @@
-# BK-02: Sync Protocols — Sinkronisasi Aturan Tanpa Ribet
+﻿# BK-02: Sync Protocols â€” Sinkronisasi Aturan Tanpa Ribet
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Bagaimana teknisnya agar folder-folder proyekmu yang berbeda tidak saling "balapan" aturannya? **Sync Protocols** adalah panduan praktis (seperti ritual) untuk memindahkan pengetahuan dari Hub SOP ke semua proyekmu secara konsisten. Ini bukan soal software otomatis, tapi soal **disiplin kerja** agar setiap kali kamu menemukan cara baru yang hebat, cara itu tersimpan dan tersebar ke seluruh proyekmu yang lain.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Banyak orang membuat dokumentasi yang bagus, tapi dokumentasi itu "mati" karena tidak pernah diupdate ke proyek nyata. Protokol sinkronisasi dibuat agar dokumentasimu menjadi **Living Document** (Dokumen Hidup) yang terus berevolusi seiring kamu belajar teknik-teknik baru bersama AI.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### The "Discover-Document-Distribute" Loop
 
@@ -22,7 +22,7 @@ Banyak orang membuat dokumentasi yang bagus, tapi dokumentasi itu "mati" karena 
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Momentum | Tindakan |
 |---|---|
@@ -32,7 +32,7 @@ Banyak orang membuat dokumentasi yang bagus, tapi dokumentasi itu "mati" karena 
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Checklist Sinkronisasi Bulanan
 
@@ -43,7 +43,7 @@ Luangkan waktu 15 menit sebulan untuk melakukan:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Memindahkan "Ilmu Baru"**
 
@@ -54,7 +54,7 @@ Luangkan waktu 15 menit sebulan untuk melakukan:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -64,5 +64,6 @@ Luangkan waktu 15 menit sebulan untuk melakukan:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [RAK-09: AI Arsenal (Model Mastery & Quota Blending)](../../RAK-09-AI-Arsenal/README.md)
+### ðŸ“– Materi Selanjutnya
+- [RAK-09: AI Arsenal (Model Mastery & Quota Blending)](../../../RAK-09-AI-Arsenal/README.md)
+

@@ -4,6 +4,21 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 
 ---
 
+## [2026-03-28] - RAK-07 Expansion: Curator Workflows
+
+### New Features
+- Menambahkan `SR-03-Curator-Workflows` di `RAK-07-Specialization`.
+- Menambahkan empat pola kurator utama:
+  - `Creation` untuk project baru,
+  - `Repair` untuk perbaikan dan bugfix,
+  - `Refactor` untuk pembenahan struktur,
+  - `Documentation` untuk handover dan penangkapan pengetahuan.
+
+### Notes
+- Kurator dibedakan berdasarkan **jenis operasi terhadap proyek**, bukan berdasarkan domain seperti website atau backend.
+
+---
+
 ## [2026-03-28] - RAK-09 Expansion: ChatGPT Models and Usage
 
 ### New Features

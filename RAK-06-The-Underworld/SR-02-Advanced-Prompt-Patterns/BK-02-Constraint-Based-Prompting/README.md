@@ -1,18 +1,18 @@
-# BK-02: Constraint-Based Prompting — Memasang "Pagar Betis" Instruksi
+﻿# BK-02: Constraint-Based Prompting â€” Memasang "Pagar Betis" Instruksi
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Pernahkah kamu minta AI buat koding tapi bilang *"Jangan pakai library X"* tapi dia malah tetap pakai? Itu karena instruksi laranganmu (constraints) kurang kuat. **Constraint-Based Prompting** adalah teknik untuk memasang "pagar betis" yang kokoh agar AI tidak bisa keluar jalur. Kuncinya bukan cuma bilang "jangan", tapi memberikan **batasan yang sangat spesifik** dan **konsekuensi logis**.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dalam *Prompt Engineering*, ditemukan bahwa AI lebih merespon pada instruksi positif ("lakukan X") daripada instruksi negatif ("jangan lakukan Y"). Namun, dalam koding, kita sering butuh batasan keras (misal: "jangan ganti variable Z"). Teknik Constraint-Based dikembangkan untuk memperkuat instruksi negatif ini agar tidak kalah kuat dari instruksi positifnya.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Struktur Constraint yang Kuat
 
@@ -23,7 +23,7 @@ Sebuah batasan yang baik terdiri dari 3 elemen:
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Task | Jenis Constraint | Urgensi |
 |---|---|---|
@@ -33,7 +33,7 @@ Sebuah batasan yang baik terdiri dari 3 elemen:
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik 1: The "NOT" Hammering
 
@@ -69,7 +69,7 @@ Minta AI mengecek batasan sebelum koding:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Menjaga Struktur Database**
 
@@ -81,7 +81,7 @@ Kamu ingin AI mengubah query tapi takut dia mengubah struktur table.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -91,5 +91,6 @@ Kamu ingin AI mengubah query tapi takut dia mengubah struktur table.
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-03: Context Management Playbook](./BK-03-Context-Management-Playbook/README.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-03: Context Management Playbook](../BK-03-Context-Management-Playbook/README.md)
+

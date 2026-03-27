@@ -1,18 +1,18 @@
-# BK-01: Token Physics — Cara AI Membaca dan Mengingat
+﻿# BK-01: Token Physics â€” Cara AI Membaca dan Mengingat
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 AI tidak membaca kata demi kata seperti manusia. Dia membaca dalam unit yang disebut **Token**. Satu token biasanya setara dengan 3-4 karakter (sekitar 3/4 kata). Bayangkan AI punya "ember ingatan" (Context Window). Setiap kali kamu bertanya atau AI menjawab, ember itu terisi token. Jika embernya penuh, AI akan mulai membuang token paling lama agar ada ruang untuk token baru. Inilah sebabnya AI bisa "lupa" instruksi di awal chat.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
-Dulu, ember ingatan AI sangat kecil (hanya 4,000 token). Sekarang, model seperti Gemini bisa menampung hingga 2,000,000 token — sebesar 10-20 novel tebal! Namun, semakin penuh embernya, semakin lambat AI berpikir dan semakin besar risiko AI menjadi "bingung" karena terlalu banyak informasi yang saling bertubrukan (*Context Poisoning*).
+Dulu, ember ingatan AI sangat kecil (hanya 4,000 token). Sekarang, model seperti Gemini bisa menampung hingga 2,000,000 token â€” sebesar 10-20 novel tebal! Namun, semakin penuh embernya, semakin lambat AI berpikir dan semakin besar risiko AI menjadi "bingung" karena terlalu banyak informasi yang saling bertubrukan (*Context Poisoning*).
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Anatomi Token
 
@@ -24,7 +24,7 @@ Dulu, ember ingatan AI sangat kecil (hanya 4,000 token). Sekarang, model seperti
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Ukuran Konteks | Dampak | Tindakan |
 |---|---|---|
@@ -34,7 +34,7 @@ Dulu, ember ingatan AI sangat kecil (hanya 4,000 token). Sekarang, model seperti
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Teknik "Economy of Tokens"
 
@@ -50,7 +50,7 @@ lebih baik @mention 2 file yang sedang kamu edit.
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Melihat Dampak Context Window**
 
@@ -61,7 +61,7 @@ lebih baik @mention 2 file yang sedang kamu edit.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -71,5 +71,6 @@ lebih baik @mention 2 file yang sedang kamu edit.
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Context Management Strategy](./BK-02-Context-Management.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Context Management Strategy](../BK-02-Context-Management/README.md)
+

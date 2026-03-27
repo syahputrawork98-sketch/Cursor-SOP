@@ -1,39 +1,39 @@
-# BK-01: Technique of Drafting — Seni Membuat Blueprint yang Tajam
+﻿# BK-01: Technique of Drafting â€” Seni Membuat Blueprint yang Tajam
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
-**Blueprint** itu seperti gambar teknik sebelum membangun gedung. Kalau kamu langsung nyuruh AI koding fitur tanpa blueprint, rasanya seperti membangun rumah tanpa denah — hasilnya bisa miring atau roboh di tengah jalan. **Technique of Drafting** adalah cara membuat kerangka kerja tertulis yang menjelaskan *apa* yang akan diubah, *file* mana yang disentuh, dan *logika* apa yang dipakai.
+**Blueprint** itu seperti gambar teknik sebelum membangun gedung. Kalau kamu langsung nyuruh AI koding fitur tanpa blueprint, rasanya seperti membangun rumah tanpa denah â€” hasilnya bisa miring atau roboh di tengah jalan. **Technique of Drafting** adalah cara membuat kerangka kerja tertulis yang menjelaskan *apa* yang akan diubah, *file* mana yang disentuh, dan *logika* apa yang dipakai.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Dalam kolaborasi Human-AI, blueprint adalah **Kontrak Kerja**. Banyak user mengeluh AI "ngaco" padahal masalahnya ada di instruksi yang tidak punya kerangka. Sejarah penggunaan AI membuktikan bahwa blueprint mengurangi bug hingga 60% karena kesalahan logika ditemukan *sebelum* satu baris kode pun ditulis.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Anatomi Blueprint yang Sempurna
 
 Sebuah blueprint harus mengandung 3 elemen "S":
 1. **Specific Files**: Daftar file `@` yang akan dimodifikasi.
-2. **Step-by-Step Logic**: Alur data (Input → Proses → Output).
+2. **Step-by-Step Logic**: Alur data (Input â†’ Proses â†’ Output).
 3. **Safety Check**: Apa yang tidak boleh diubah agar tidak merusak sistem lain.
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Mode | Kebutuhan Blueprint |
 |---|---|
-| 📐 **BLUEPRINT** | **Wajib** (Sesuai namanya). |
-| ♻️ **REFACTOR** | **Sangat Tinggi** (Cek efek domino). |
-| 🐛 **DEBUG** | **Tinggi** (Rangkuman temuan sebelum diperbaiki). |
+| ðŸ“ **BLUEPRINT** | **Wajib** (Sesuai namanya). |
+| â™»ï¸ **REFACTOR** | **Sangat Tinggi** (Cek efek domino). |
+| ðŸ› **DEBUG** | **Tinggi** (Rangkuman temuan sebelum diperbaiki). |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Template: The "Drafting" Prompt
 
@@ -49,7 +49,7 @@ Ketik ini saat AI menawarkan bantuan untuk tugas besar:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Membuat Fitur Sorting Data**
 
@@ -60,7 +60,7 @@ Ketik ini saat AI menawarkan bantuan untuk tugas besar:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -70,5 +70,6 @@ Ketik ini saat AI menawarkan bantuan untuk tugas besar:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [BK-02: Validation Protocols](./BK-02-Validation-Protocols.md)
+### ðŸ“– Materi Selanjutnya
+- [BK-02: Validation Protocols](../BK-02-Validation-Protocols/README.md)
+

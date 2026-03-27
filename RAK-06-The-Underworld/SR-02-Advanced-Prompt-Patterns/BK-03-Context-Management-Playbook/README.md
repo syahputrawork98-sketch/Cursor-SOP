@@ -1,18 +1,18 @@
-# BK-01: Session Refresh Protocol — Kapan Harus "Mulai dari Nol"?
+﻿# BK-01: Session Refresh Protocol â€” Kapan Harus "Mulai dari Nol"?
 
-## 🌟 Gampangnya...
+## ðŸŒŸ Gampangnya...
 
 Bayangkan kamu sedang mengobrol dengan seseorang selama 5 jam nonstop. Di jam ke-4, pasti obrolan mulai melantur dan dia mulai bingung siapa yang sedang dibicarakan. Hal yang sama terjadi pada AI. **Session Refresh Protocol** adalah panduan untuk mengetahui kapan kamu harus menutup chat yang lama dan membuka chat baru agar AI kembali segar (fresh) dan tidak membawa "beban" memori dari diskusi yang sudah lewat.
 
 ---
 
-## 📖 Konteks & Sejarah
+## ðŸ“– Konteks & Sejarah
 
 Banyak blunder AI (seperti tiba-tiba menghapus file yang benar) terjadi bukan karena AI bodoh, tapi karena **Context Pollution** (Pencemaran Konteks). Sesi chat yang terlalu panjang berisi terlalu banyak kodingan lama yang mungkin sekarang sudah tidak relevan. AI mulai bingung mana versi kode yang benar.
 
 ---
 
-## ⚙️ Cara Kerja
+## âš™ï¸ Cara Kerja
 
 ### Siklus Hidup Konteks (Context Lifecycle)
 
@@ -22,17 +22,17 @@ Banyak blunder AI (seperti tiba-tiba menghapus file yang benar) terjadi bukan ka
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## ðŸ—ºï¸ Kapan Mode Ini Relevan
 
 | Kondisi | Keputusan | Tindakan |
 |---|---|---|
 | Ganti Fitur Besar | **Refresh!** | Save notes, tutup chat, buka baru. |
-| AI Mulai Melawan Rules | **Refresh!** | Ingatkan sekali, jika gagal → Buka baru. |
+| AI Mulai Melawan Rules | **Refresh!** | Ingatkan sekali, jika gagal â†’ Buka baru. |
 | Fix Bug Kecil Lanjut ke Fitur Baru | **Refresh!** | Jangan campur bug-fixing dengan feature building. |
 
 ---
 
-## 🛠️ Cara Pakai
+## ðŸ› ï¸ Cara Pakai
 
 ### Protokol "Handover" (Sebelum Ganti Sesi)
 
@@ -56,7 +56,7 @@ Jangan langsung tutup chat! Lakukan **Handover** agar konteks tidak hilang:
 
 ---
 
-## 🧪 Lab Praktek
+## ðŸ§ª Lab Praktek
 
 **Skenario: Kamu sudah debug fitur X selama 1 jam, sekarang mau pindah ke fitur Y.**
 
@@ -69,7 +69,7 @@ Jangan langsung tutup chat! Lakukan **Handover** agar konteks tidak hilang:
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## âš ï¸ Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
@@ -79,5 +79,6 @@ Jangan langsung tutup chat! Lakukan **Handover** agar konteks tidak hilang:
 
 ---
 
-### 📖 Materi Selanjutnya
-- [Fase Selanjutnya: Foundational Depth (RAK-01 s/d 04)](../../status.md)
+### ðŸ“– Materi Selanjutnya
+- [Fase Selanjutnya: Foundational Depth (RAK-01 s/d 04)](../../../status.md)
+
