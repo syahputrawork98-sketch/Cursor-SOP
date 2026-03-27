@@ -1,98 +1,116 @@
-# RAK-02: Foundation & Core Rules — Hukum Dasar Berinteraksi dengan AI
+# RAK-02: Foundation & Core Rules - Hukum Dasar Berinteraksi dengan AI
 
-## 🌟 Gampangnya...
+## Gampangnya...
 
-Ini adalah aturan paling penting di seluruh perpustakaan ini. Satu hukum utama: **jangan biarkan AI langsung koding tanpa kamu setujui rencananya terlebih dahulu.** Seperti kontraktor bangunan — kamu tidak mau tukang langsung bongkar tembok begitu datang, kan? Kamu ingin lihat gambar arsitektur dulu, setuju, *baru* tukang mulai kerja.
+Ini adalah rak fondasi. Kalau rak lain membahas teknik, alat, atau strategi spesifik, rak ini membahas hukum dasarnya: bagaimana kamu dan AI seharusnya bekerja bersama agar hasilnya tidak liar, tidak offside, dan tidak salah arah.
 
----
-
-## 📖 Konteks & Sejarah
-
-Tanpa aturan, AI akan selalu mengambil jalan pintas: langsung *generate* kode. Ini bukan karena AI jahat, tapi karena secara default AI dilatih untuk *helpful* — dan baginya, "helpful" berarti langsung memberikan output. Masalahnya: output yang cepat tapi salah arah jauh lebih merusak daripada lambat tapi tepat. Dari sinilah lahir konsep **DISCUSS before EXECUTE**.
+Di sinilah prinsip seperti `DISCUSS before EXECUTE`, pemetaan mode kerja AI, dan cara memilih posisi kerja yang tepat dijadikan aturan dasar yang berlaku ke seluruh repo.
 
 ---
 
-## ⚙️ Cara Kerja
+## Konteks & Sejarah
 
-### State Machine Interaksi AI
+Tanpa aturan, AI cenderung mengambil jalan tercepat: langsung menghasilkan output. Masalahnya, output yang cepat tapi salah arah jauh lebih mahal daripada proses yang sedikit lebih lambat namun benar.
+
+Karena itu repo ini membangun fondasi kerja AI di atas dua hal:
+- hukum dasar agar AI tidak langsung bertindak tanpa arah yang disetujui,
+- sistem mode agar user tahu kapan harus berdiskusi, merancang, menganalisis, mengeksekusi, mengaudit, atau mendokumentasikan.
+
+---
+
+## Cara Kerja
+
+### State Machine Inti
 
 ```mermaid
 stateDiagram-v2
     [*] --> DISCUSS : Default
     DISCUSS --> BLUEPRINT : "Buatkan blueprint..."
-    BLUEPRINT --> DISCUSS : Revision needed
-    BLUEPRINT --> EXECUTE : Disetujui User
+    BLUEPRINT --> PLAN : "Pecah langkahnya..."
+    PLAN --> ANALYZE : "Audit risikonya..."
+    ANALYZE --> EXECUTE : Disetujui
     DISCUSS --> EXECUTE : "Lakukan / Gasper / Jalankan"
     EXECUTE --> REVIEW : Selesai
     REVIEW --> DISCUSS : Ada masalah
-    REVIEW --> [*] : Approved
+    REVIEW --> DOCUMENT : Perlu ditangkap
+    DOCUMENT --> [*]
 ```
 
-**Aturan besi**: Selama tidak ada trigger EXECUTE, AI **wajib** tetap di mode DISCUSS/BLUEPRINT. Tidak ada pengecualian.
+### Dua Fondasi Utama
+
+| Fondasi | Fungsi |
+|---|---|
+| **SR-01: The Sacred Law** | Menjaga garis batas antara diskusi dan eksekusi |
+| **SR-02: AI Interaction Modes** | Menjelaskan mode-mode kerja AI secara inti dan luas |
 
 ---
 
-## 🗺️ Kapan Mode Ini Relevan
+## Kapan Digunakan
 
-| Mode | Trigger | Hasil yang Diharapkan |
-|---|---|---|
-| 🗣️ **DISCUSS** | Default (semua pertanyaan) | AI menjelaskan, menganalisis, bertanya balik |
-| 📐 **BLUEPRINT** | "Buatkan blueprint / rancangan..." | AI membuat proposal teknis, **tanpa satu baris kode pun** |
-| ⚡ **EXECUTE** | "Lakukan / Gasper / Jalankan / Eksekusi" | AI baru mulai menulis kode |
-| 🔍 **REVIEW** | Otomatis setelah EXECUTE selesai | AI melaporkan apa yang dikerjakan dan meminta approval |
+RAK ini relevan saat kamu ingin menjawab pertanyaan seperti:
+- "Kenapa AI tidak boleh langsung koding?"
+- "Apa beda `DISCUSS`, `BLUEPRINT`, `PLAN`, dan `ANALYZE`?"
+- "Untuk bikin website baru, saya harus mulai dari mode apa?"
+- "Mode yang beredar di internet itu banyak, tapi yang dipakai repo ini yang mana?"
+
+Kalau kamu ingin memahami hukum dasar dan bahasa kerja AI sebelum masuk ke rak-rak yang lebih teknis, mulai dari sini.
 
 ---
 
-## 🛠️ Cara Pakai
+## Cara Pakai
 
-### Template: Memulai Task Baru (Paling Penting!)
+### Urutan Belajar yang Disarankan
 
-```
-"[Deskripsi task]. JANGAN koding dulu. 
- Jelaskan rencanamu dalam 2 kalimat santai."
-```
+1. Mulai dari `SR-01` untuk memahami hukum dasar `DISCUSS before EXECUTE`.
+2. Lanjut ke `SR-02` untuk memahami mode AI secara lebih sistematis.
+3. Pakai rak ini sebagai acuan setiap kali kamu bingung harus masuk mode apa.
 
-### Template: Menghentikan AI yang Kebablasan
+### Template Dasar
 
-```
-"STOP. Kamu melewatkan fase BLUEPRINT. 
- Kembali ke DISCUSS. Jelaskan ulang logika kamu sebelum lanjut."
-```
-
-### Template: Memberikan Izin Eksekusi
-
-```
-"Baik, rencana sudah oke. Gasper — 
- tapi kerjakan satu file dulu, lapor hasilnya."
+```text
+"Saya belum mau coding dulu.
+Klasifikasikan dulu task ini:
+apakah saya perlu DISCUSS, BLUEPRINT, PLAN, ANALYZE, atau mode lain?
+Jelaskan alasanmu."
 ```
 
 ---
 
-## 🧪 Lab Praktek
+## Lab Praktek
 
-**Skenario: AI yang langsung kabur coding**
+**Skenario: membangun fitur baru**
 
-Kamu ketik: *"Tambahkan fitur login ke proyekku."*
-AI langsung mulai generate 200 baris kode.
+Task: "Tambahkan sistem autentikasi JWT."
 
-**Cara handle:**
-1. Ketik: *"STOP. Kamu belum dapat izin EXECUTE."*
-2. Lanjut: *"Sekarang mode BLUEPRINT. Jelaskan: file mana yang akan diubah, dan mengapa?"*
-3. Review blueprint AI. Setuju? Baru ketik: *"Gasper."*
+Workflow sehat:
+1. `DISCUSS` untuk menyamakan tujuan.
+2. `BLUEPRINT` untuk menggambar struktur solusi.
+3. `PLAN` untuk memecah langkah.
+4. `ANALYZE` untuk membaca risiko.
+5. `EXECUTE` untuk implementasi.
+6. `REVIEW` untuk mengaudit hasil.
+7. `DOCUMENT` jika keputusan perlu diwariskan.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
-| **Langsung EXECUTE** | AI langsung koding tanpa bertanya | Tambah ke `.cursorrules`: *"Default mode is DISCUSS. No code without EXECUTE trigger."* |
-| **Blueprint palsu** | AI bilang "oke, saya akan..." lalu langsung koding | Bedakan: blueprint = rencana tertulis, bukan narasi verbal |
-| **EXECUTE terlalu luas** | Kamu bilang "Gasper" → AI ubah 10 file sekaligus | Selalu batasi: *"Gasper, tapi 1 file dulu."* |
+| **Langsung EXECUTE** | AI langsung mengubah file tanpa persetujuan | Pakai `SR-01` sebagai pagar utama |
+| **Bingung memilih mode** | Semua task terasa sama | Gunakan `SR-02` sebagai kamus dan decision layer |
+| **Mode dicampur dengan workflow** | `Creation` dianggap mode baru | Pisahkan mode dasar dari curator workflow |
+| **Terlalu banyak istilah luar** | User bingung antara istilah internet dan sistem repo | Bedakan `core modes` dan `extended modes` |
 
 ---
 
-### 🗂️ Sub-Rak & Buku
+### Sub-Rak & Buku
 - **SR-01: The Sacred Law**
   - [BK-01: Discuss vs Execute](./SR-01-The-Sacred-Law/BK-01-Discuss-vs-Execute/README.md)
   - [BK-02: Mental Models](./SR-01-The-Sacred-Law/BK-02-Mental-Models/README.md)
+- **SR-02: AI Interaction Modes**
+  - [BK-01: Peta Core Modes](./SR-02-AI-Interaction-Modes/BK-01-Peta-Core-Modes/README.md)
+  - [BK-02: Extended Modes dari Praktik Internet](./SR-02-AI-Interaction-Modes/BK-02-Extended-Modes-dari-Praktik-Internet/README.md)
+  - [BK-03: Kapan Memakai Mode yang Tepat](./SR-02-AI-Interaction-Modes/BK-03-Kapan-Memakai-Mode-yang-Tepat/README.md)
+  - [BK-04: Mode vs Curator Workflow](./SR-02-AI-Interaction-Modes/BK-04-Mode-vs-Curator-Workflow/README.md)
+  - [BK-05: Living Registry dan Update Protocol](./SR-02-AI-Interaction-Modes/BK-05-Living-Registry-dan-Update-Protocol/README.md)
