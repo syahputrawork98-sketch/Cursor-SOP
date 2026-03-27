@@ -35,6 +35,23 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 
 ---
 
+## [2026-03-28] - RAK-09 Expansion: Antigravity Model Optimization
+
+### New Features
+- Menambahkan `SR-04-Antigravity-Model-Optimization` di `RAK-09-AI-Arsenal`.
+- Menambahkan panduan baru untuk:
+  - peta model premium di Antigravity,
+  - keluarga Gemini,
+  - keluarga Claude,
+  - model economy seperti `GPT-OSS 120B Medium`,
+  - strategi kuota dan routing task,
+  - playbook pemilihan model per jenis kerja.
+
+### Notes
+- Konten baru difokuskan pada optimasi lineup model yang tersedia di akun premium yang sedang digunakan, bukan pada dokumentasi Gemini app umum.
+
+---
+
 ## [2026-03-27] — Unified Architecture Refactoring (PPM V6)
 
 ### 💥 Breaking Changes
