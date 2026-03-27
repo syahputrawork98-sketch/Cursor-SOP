@@ -34,17 +34,23 @@ Dari sinilah muncul mode-mode tambahan yang sering beredar di internet.
 
 ### Daftar Extended Modes yang Paling Umum
 
-| Mode | Fungsi Ringkas | Hubungan ke Core Modes |
-|---|---|---|
-| `INTAKE / CLARIFY` | Menangkap tujuan dan batasan | Dekat dengan `DISCUSS` |
-| `RESEARCH / RETRIEVE` | Mengambil informasi dan referensi | Dekat dengan `ANALYZE` |
-| `TOOL USE` | Memakai tool, function, atau API | Sering terjadi saat `EXECUTE` atau `ANALYZE` |
-| `MEMORY / CONTEXT MANAGEMENT` | Menyimpan dan mengatur konteks | Mendukung semua mode |
-| `HANDOFF / ROUTE / ESCALATE` | Menyerahkan kerja ke agent lain, model lain, atau user | Dekat dengan workflow kurator |
-| `MONITOR / GUARDRAIL` | Menjaga batas, kebijakan, dan keamanan | Dekat dengan `REVIEW` |
-| `REFLECT / SELF-CORRECT` | Mengoreksi diri sebelum lanjut | Dekat dengan `REVIEW` dan `ANALYZE` |
-| `SYNTHESIZE` | Merangkum hasil multi-sumber menjadi jawaban utuh | Dekat dengan `DOCUMENT` |
-| `ORCHESTRATE` | Mengatur urutan agent, tool, dan langkah | Dekat dengan `PLAN` dan kurator |
+| Istilah | Kategori | Fungsi Ringkas | Hubungan ke Core Modes |
+|---|---|---|---|
+| `INTAKE / CLARIFY` | `Mode` | Menangkap tujuan dan batasan | Dekat dengan `DISCUSS` |
+| `RESEARCH / RETRIEVE` | `Mode` | Mengambil informasi dan referensi | Dekat dengan `ANALYZE` |
+| `TOOL USE` | `Mechanism` | Memakai tool, function, atau API | Sering terjadi saat `EXECUTE` atau `ANALYZE` |
+| `MEMORY / CONTEXT MANAGEMENT` | `Mechanism` | Menyimpan dan mengatur konteks | Mendukung semua mode |
+| `HANDOFF / ROUTE / ESCALATE` | `Workflow Concern` | Menyerahkan kerja ke agent lain, model lain, atau user | Dekat dengan workflow kurator |
+| `MONITOR / GUARDRAIL` | `Workflow Concern` | Menjaga batas, kebijakan, dan keamanan | Dekat dengan `REVIEW` |
+| `REFLECT / SELF-CORRECT` | `Mode` | Mengoreksi diri sebelum lanjut | Dekat dengan `REVIEW` dan `ANALYZE` |
+| `SYNTHESIZE` | `Mode` | Merangkum hasil multi-sumber menjadi jawaban utuh | Dekat dengan `DOCUMENT` |
+| `ORCHESTRATE` | `Mechanism` | Mengatur urutan agent, tool, dan langkah | Dekat dengan `PLAN` dan kurator |
+
+### Cara Membaca Kategori Ini
+
+- `Mode` berarti ia bisa dipahami sebagai posisi kerja yang relatif mandiri.
+- `Mechanism` berarti ia lebih sering menjadi cara kerja lintas mode, bukan mode harian yang berdiri sendiri.
+- `Workflow Concern` berarti ia biasanya hidup di level orkestrasi, kontrol, atau pengelolaan alur, bukan di level mode kerja dasar.
 
 ### Penjelasan Detail per Mode
 
@@ -123,7 +129,7 @@ Kapan dipakai:
 - saat perlu model atau spesialisasi berbeda.
 
 Hubungan ke core modes:
-paling dekat dengan konsep `curator workflows` dan orkestrasi.
+paling dekat dengan konsep `curator workflows` dan orkestrasi, sehingga lebih tepat dipahami di level workflow concern.
 
 #### `MONITOR / GUARDRAIL`
 
@@ -139,7 +145,7 @@ Kapan dipakai:
 - saat aksi yang salah bisa mahal.
 
 Hubungan ke core modes:
-repo ini biasanya memadukannya ke `REVIEW`, rules, dan governance.
+repo ini biasanya memadukannya ke `REVIEW`, rules, dan governance, bukan memisahkannya menjadi mode kerja harian.
 
 #### `REFLECT / SELF-CORRECT`
 
@@ -186,7 +192,7 @@ Kapan dipakai:
 - saat workflow bercabang.
 
 Hubungan ke core modes:
-dekat dengan `PLAN`, tapi lebih meta karena mengatur sistem kerja, bukan hanya daftar langkah task.
+dekat dengan `PLAN`, tapi lebih meta karena mengatur sistem kerja, bukan hanya daftar langkah task. Karena itu ia lebih cocok dibaca sebagai mechanism daripada core mode.
 
 ---
 

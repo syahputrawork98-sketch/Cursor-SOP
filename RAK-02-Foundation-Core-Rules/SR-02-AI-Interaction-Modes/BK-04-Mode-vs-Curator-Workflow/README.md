@@ -51,6 +51,13 @@ Sebuah curator baru layak dibuat jika:
 - ada nilai praktis saat workflow itu diberi nama,
 - dan dia tidak hanya menduplikasi curator yang sudah ada.
 
+### Rumah Utama Curator
+
+Penjelasan lengkap tentang curator workflow hidup di:
+- [SR-03: Curator Workflows](/i:/Workspace/Workspace-Syahputrawork/08-AI-Orchestration-Hubs/Cursor-SOP/RAK-07-Specialization/SR-03-Curator-Workflows/README.md)
+
+Buku ini berfungsi sebagai jembatan konsep. Rumah operasional curator tetap berada di `RAK-07`.
+
 ---
 
 ## Kapan Digunakan
@@ -61,6 +68,7 @@ Pakai buku ini saat:
 - kamu ingin tahu bagaimana mode dasar dirangkai menjadi operasi kerja yang bisa dipakai ulang.
 
 Kalau kamu hanya ingin tahu definisi mode, balik ke `BK-01`. Kalau kamu ingin tahu kapan memakai mode, baca `BK-03`.
+Kalau kamu ingin mendalami template dan pola curator yang sudah jadi, lanjut ke [SR-03: Curator Workflows](/i:/Workspace/Workspace-Syahputrawork/08-AI-Orchestration-Hubs/Cursor-SOP/RAK-07-Specialization/SR-03-Curator-Workflows/README.md).
 
 ---
 
