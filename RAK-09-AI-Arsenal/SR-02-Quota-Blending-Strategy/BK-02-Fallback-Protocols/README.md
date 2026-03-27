@@ -57,4 +57,4 @@ Jika kamu butuh reasoning kuat tapi kuota Cursor habis:
 ---
 
 ### 📖 Materi Selanjutnya
-- [Fase Selanjutnya: Final Verification (Langkah 6)](../../status.md)
+- [Status Proyek](../../../status.md)

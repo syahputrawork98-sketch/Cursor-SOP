@@ -4,6 +4,22 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 
 ---
 
+## [2026-03-28] - RAK-09 Expansion: ChatGPT Models and Usage
+
+### New Features
+- Menambahkan `SR-03-ChatGPT-Models-and-Usage` di `RAK-09-AI-Arsenal`.
+- Menambahkan panduan baru untuk:
+  - peta produk ChatGPT,
+  - pemilihan model di ChatGPT,
+  - selector thinking/reasoning,
+  - strategi kuota mingguan,
+  - batas penggunaan ChatGPT vs Codex vs API.
+
+### Notes
+- Konten baru ditulis dengan cap waktu karena lineup model dan availability plan cepat berubah.
+
+---
+
 ## [2026-03-27] — Unified Architecture Refactoring (PPM V6)
 
 ### 💥 Breaking Changes

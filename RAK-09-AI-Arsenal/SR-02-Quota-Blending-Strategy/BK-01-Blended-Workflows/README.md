@@ -70,4 +70,4 @@ Jika terpaksa pakai Flash untuk tugas sulit, gunakan awalan ini:
 ---
 
 ### 📖 Materi Selanjutnya
-- [BK-02: Fallback Protocols](./BK-02-Fallback-Protocols.md)
+- [BK-02: Fallback Protocols](../BK-02-Fallback-Protocols/README.md)

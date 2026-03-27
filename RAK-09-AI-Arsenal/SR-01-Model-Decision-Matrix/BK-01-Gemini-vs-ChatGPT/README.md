@@ -69,4 +69,4 @@ Sebelum mulai chat, tentukan senjatamu:
 ---
 
 ### 📖 Materi Selanjutnya
-- [BK-02: High-vs-Low Tier Budgeting](./BK-02-High-vs-Low-Tier.md)
+- [BK-02: High-vs-Low Tier Budgeting](../BK-02-High-vs-Low-Tier/README.md)

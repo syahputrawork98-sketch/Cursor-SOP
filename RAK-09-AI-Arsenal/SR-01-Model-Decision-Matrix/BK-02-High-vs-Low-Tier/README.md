@@ -65,4 +65,4 @@ sesuai tingkat kesulitan task!
 ---
 
 ### 📖 Materi Selanjutnya
-- [RAK-09/SR-02: Quota Blending Strategy](../SR-02-Quota-Blending-Strategy/README.md)
+- [BK-01: Blended Workflows](../../SR-02-Quota-Blending-Strategy/BK-01-Blended-Workflows/README.md)

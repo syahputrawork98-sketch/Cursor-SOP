@@ -1,158 +1,145 @@
-# RAK-09: AI Arsenal — Panduan Memilih & Memadukan Model AI
+# RAK-09: AI Arsenal - Panduan Memilih Model, Mode, dan Alat AI
 
-## 🌟 Gampangnya...
+## Gampangnya...
 
-Kamu punya dua "senjata" AI premium: **Antigravity (Gemini)** dan **ChatGPT (OpenAI)**. Masalahnya, masing-masing model punya kekuatan berbeda, kuota terbatas, dan kelemahan yang tidak selalu jelas. Rak ini adalah **buku pegangan** agar kamu tidak pernah salah pilih model — dan agar kuotamu tidak habis sia-sia untuk task yang bisa dikerjakan oleh model yang lebih hemat.
+Punya banyak model AI itu enak, tapi juga gampang bikin bingung. Salah pilih model bisa bikin kerja lambat, hasil dangkal, atau kuota habis untuk tugas yang sebenarnya ringan.
+
+RAK ini adalah buku pegangan untuk memilih **alat yang tepat, model yang tepat, dan kedalaman reasoning yang tepat** sesuai jenis tugasmu.
+
+> Status per 2026-03-28.
+> Nama model, availability per plan, dan batas penggunaan adalah area yang cepat berubah.
 
 ---
 
-## 📖 Konteks & Sejarah
+## Konteks & Sejarah
 
-Setiap model AI dilatih dengan fokus berbeda dan memiliki arsitektur yang berbeda. Gemini Pro unggul pada reasoning lintas konteks besar. Flash dirancang untuk kecepatan dan volume tinggi. Claude Sonnet kuat di nuansa bahasa dan code review. GPT-4o dan o1/o3 memiliki chain-of-thought reasoning yang mendalam. Mengetahui ini bukan sekedar trivia — ini langsung berdampak pada kecepatan dan kualitas kerjamu.
+Dulu banyak user hanya membagi model menjadi dua kubu: "yang pintar" dan "yang cepat". Sekarang kenyataannya jauh lebih kompleks:
+- ada perbedaan antara chat product, coding agent, dan API,
+- ada perbedaan antara model picker di UI dan model IDs teknis,
+- ada selector thinking yang memengaruhi kedalaman reasoning,
+- ada batas usage yang membuat strategi pemakaian menjadi penting.
+
+Karena itu, memilih model hari ini bukan lagi soal hafal nama, tetapi soal memahami **routing kerja**.
 
 ---
 
-## ⚙️ Cara Kerja
+## Cara Kerja
 
-### Arsitektur Platform yang Kamu Miliki
+### Decision Flow Sederhana
 
 ```mermaid
 graph TD
-    A[Kamu] --> B[Antigravity\nPowered by Gemini]
-    A --> C[ChatGPT\nPowered by OpenAI]
-    B --> D[Gemini 2.5 Pro\nReasoning mendalam]
-    B --> E[Gemini Flash\nCepat, kuota banyak]
-    C --> F[GPT-4o\nGeneralis terbaik]
-    C --> G[o1 / o3\nDeep reasoning]
+    A[Task Baru] --> B{Jenis Kerja?}
+    B -->|Diskusi, ide, analisis| C[ChatGPT]
+    B -->|Agentic coding| D[Codex]
+    B -->|Integrasi aplikasi| E[API]
+    C --> F{Butuh cepat atau dalam?}
+    F -->|Cepat| G[Instant / Standard]
+    F -->|Dalam| H[Thinking / Extended / Heavy]
 ```
+
+### Prinsip Inti
+
+| Prinsip | Maknanya |
+|---|---|
+| **Task Triage** | Bedakan task ringan, menengah, dan mahal |
+| **Right Tool First** | ChatGPT, Codex, dan API punya konteks kerja berbeda |
+| **Reasoning as Budget** | Thinking effort adalah biaya kedalaman berpikir |
+| **Quota Discipline** | Simpan model dan mode termahal untuk tugas yang salahnya mahal |
 
 ---
 
-## 🗺️ Decision Matrix — Pakai Model Mana?
+## Kapan Digunakan
 
-| Task | Platform | Model | Alasan |
-|---|---|---|---|
-| Analisis kode kompleks, arsitektur | Antigravity | **Gemini 2.5 Pro** | Context window besar + reasoning kuat |
-| Generate kode cepat & iteratif | Antigravity | **Gemini Flash** | Cepat, cocok untuk iterasi banyak |
-| Brainstorming, ideasi kreatif | ChatGPT | **GPT-4o** | Bahasa natural, kreatif, versatile |
-| Debug masalah logika yang dalam | ChatGPT | **o1 / o3** | Chain-of-thought mendalam |
-| Review kode & kualitas | Antigravity | **Gemini 2.5 Pro** | Konteks besar → bisa baca semua file terkait |
-| Dokumentasi & penjelasan | Keduanya | **Flash / GPT-4o-mini** | Task tidak butuh reasoning berat |
-| Refactoring besar | Antigravity | **Gemini 2.5 Pro** | Konteks semua file sekaligus |
-| Task sederhana & rutin | Keduanya | **Model tercepat** | Hemat kuota Pro untuk yang perlu |
+RAK ini relevan ketika kamu menghadapi pertanyaan seperti:
+- "Saya sebaiknya pakai model cepat atau model thinking?"
+- "Kapan cukup pakai ChatGPT, kapan pindah ke Codex?"
+- "Bagaimana cara menghemat kuota mingguan tanpa menurunkan kualitas kerja?"
+- "Apa bedanya model yang tampil di UI dengan model teknis di docs API?"
+
+Kalau kebingunganmu ada di area pemilihan model, selector, platform, atau strategi kuota, mulai dari rak ini.
 
 ---
 
-## 🛠️ Cara Pakai
+## Cara Pakai
 
-### SR-05: Quota Blending Strategy
+### Ritual 3 Langkah Sebelum Memulai Sesi
 
-**Masalah**: Kuota Pro/Sonnet habis → terpaksa pakai Flash → performa turun.
+1. Tentukan dulu jenis tugasmu:
+   - drafting cepat,
+   - debugging,
+   - review,
+   - coding agentic,
+   - integrasi produk.
+2. Tentukan dulu salahnya semahal apa:
+   - murah jika salah,
+   - sedang,
+   - mahal jika salah.
+3. Baru pilih:
+   - alat,
+   - model,
+   - thinking level.
 
-#### Prinsip 1: Task Triage (Lakukan Sebelum Setiap Sesi)
+### Aturan Praktis
 
-```
-Sebelum mulai, tanya ke diri sendiri:
-❓ "Apakah task ini butuh reasoning mendalam?"
-   → Ya (debug sulit, arsitektur, analisis) → WAJIB pakai Pro/Sonnet
-   → Tidak (generate, format, dokumentasi) → Cukup Flash/GPT-4o-mini
-```
+- Untuk tugas ringan: mulai dari opsi tercepat.
+- Untuk tugas kompleks: naikkan model atau thinking effort.
+- Untuk kerja repo nyata: jangan paksa chat biasa menjadi coding agent penuh.
+- Untuk kuota mingguan: jangan jadikan mode terberat sebagai default.
 
-#### Prinsip 2: Quota Budgeting
+### SR-02: Quota Blending Strategy
 
-```
-# Reservasi Pro/Gemini High untuk:
-✅ BLUEPRINT & PLAN (sesi ini menentukan arah semua kerja berikutnya)
-✅ ANALYZE & DEBUG (butuh reasoning dalam)
-✅ REVIEW final (sebelum commit)
+Gunakan sub-rak ini saat kamu perlu membagi beban kerja antara model cepat dan model reasoning dalam, tanpa membakar kuota mahal untuk semua hal.
 
-# Pakai Flash untuk:
-✅ EXECUTE kode sederhana yang sudah ada blueprint-nya
-✅ DOCUMENT & tulis komentar
-✅ Task yang sudah jelas, tidak butuh keputusan baru
-```
+### SR-03: ChatGPT Models and Usage
 
-#### Prinsip 3: Flash Enhancement (Saat Terpaksa Pakai Flash)
-
-Saat kuota Pro habis dan Flash harus mengerjakan task yang biasanya butuh Pro:
-
-```
-"Kerjakan ini step by step. Sebelum menulis kode:
- 1. Ulangi pemahamanmu tentang task ini dalam 1 kalimat
- 2. Identifikasi 2 risiko utama
- 3. Baru mulai coding
- 
- Ini adalah task [KATEGORI: complex/medium/simple]."
-```
-
-> Flash cenderung lebih baik saat kamu **memandu step-by-step**, bukan membiarkan dia memutuskan sendiri.
-
-#### Prinsip 4: Cross-Platform Fallback
-
-```
-Hierarki fallback saat kuota habis:
-
-Gemini Pro habis → Switch ke ChatGPT GPT-4o (bukan Flash)
-ChatGPT o1 habis → Switch ke Gemini Pro (bukan Flash)
-Keduanya habis high-tier → Pakai Flash DENGAN Flash Enhancement
-```
-
-#### Prinsip 5: Batching
-
-```
-# Kumpulkan semua pertanyaan kompleks dalam satu sesi Pro:
-
-"Hari ini saya akan tanyakan TIGA hal sekaligus:
- 1. [Arsitektur auth system]
- 2. [Analisis bottleneck di endpoint X]
- 3. [Review PRD fitur Y]
- Jawab satu per satu dengan detail."
-```
+Gunakan sub-rak ini saat kamu ingin memahami:
+- model yang relevan di ChatGPT,
+- selector thinking,
+- strategi kuota mingguan,
+- dan batas antara ChatGPT, Codex, serta API.
 
 ---
 
-## 🧪 Lab Praktek
+## Lab Praktek
 
-**Skenario: Sprint sehari dengan kuota terbatas**
+**Skenario: satu hari kerja AI yang sehat**
 
-**Pagi (kuota masih penuh):**
-```
-Pakai Gemini 2.5 Pro:
-"Blueprint semua task hari ini dalam satu sesi.
- Saya akan kerjakan: [list task].
- Untuk setiap task, buat rencana eksekusi singkat."
-```
+Pagi:
+- gunakan mode yang lebih dalam untuk blueprint, analisis inti, dan keputusan arah.
 
-**Siang (eksekusi):**
-```
-Pakai Gemini Flash (sudah ada blueprint):
-"Eksekusi blueprint yang tadi. Mulai dari task 1."
-```
+Siang:
+- gunakan mode cepat untuk drafting, rewrite, dan iterasi.
 
-**Sore (review):**
-```
-Pakai ChatGPT GPT-4o (jika Pro sudah habis):
-"Review semua yang sudah dikerjakan hari ini. 
- Cari inkonsistensi atau potensi bug."
-```
+Sore:
+- gunakan model atau mode terbaik yang tersisa untuk audit final jika ada keputusan penting.
+
+Pelajaran:
+AI Arsenal bukan soal memakai model termahal terus-menerus, tapi soal **mengatur tenaga model seperti mengatur stamina tim**.
 
 ---
 
-## ⚠️ Jebakan & Solusi
+## Jebakan & Solusi
 
 | Jebakan | Gejala | Solusi |
 |---|---|---|
-| **Pakai Pro untuk semua task** | Kuota Pro habis di tengah hari | Identifikasi task yang cukup Flash sebelum mulai |
-| **Fallback ke Flash tanpa perubahan cara** | Flash hasilnya jelek, kamu frustasi | Gunakan Flash Enhancement — Flash butuh guidance lebih eksplisit |
-| **Ganti platform tanpa context transfer** | Model baru tidak tahu konteks sebelumnya | Selalu paste ringkasan konteks saat ganti platform |
-| **o1/o3 untuk task cepat** | Kehabisan kuota o1 untuk task sederhana | o1/o3 khusus untuk reasoning mendalam — jangan buang untuk hal sederhana |
+| **Model prestige trap** | Selalu memilih model paling berat | Gunakan task triage sebelum memilih |
+| **Tool confusion** | ChatGPT dipaksa jadi coding agent penuh | Pindah ke Codex saat kerja repo nyata |
+| **Quota panic** | Kuota habis untuk tugas receh | Simpan mode berat untuk keputusan mahal |
+| **UI/API confusion** | Nama model di UI dan docs tercampur | Pelajari batas produknya di SR-03 |
 
 ---
 
-### 🗂️ Sub-Rak & Buku
+### Sub-Rak & Buku
 - **SR-01: Model Decision Matrix**
   - [BK-01: Gemini vs ChatGPT](./SR-01-Model-Decision-Matrix/BK-01-Gemini-vs-ChatGPT/README.md)
   - [BK-02: High-vs-Low Tier](./SR-01-Model-Decision-Matrix/BK-02-High-vs-Low-Tier/README.md)
 - **SR-02: Quota Blending Strategy**
   - [BK-01: Blended Workflows](./SR-02-Quota-Blending-Strategy/BK-01-Blended-Workflows/README.md)
   - [BK-02: Fallback Protocols](./SR-02-Quota-Blending-Strategy/BK-02-Fallback-Protocols/README.md)
+- **SR-03: ChatGPT Models and Usage**
+  - [BK-01: ChatGPT Product Map](./SR-03-ChatGPT-Models-and-Usage/BK-01-ChatGPT-Product-Map/README.md)
+  - [BK-02: ChatGPT Model Picker Guide](./SR-03-ChatGPT-Models-and-Usage/BK-02-ChatGPT-Model-Picker-Guide/README.md)
+  - [BK-03: Thinking Selector Guide](./SR-03-ChatGPT-Models-and-Usage/BK-03-Thinking-Selector-Guide/README.md)
+  - [BK-04: Weekly Quota and Usage Strategy](./SR-03-ChatGPT-Models-and-Usage/BK-04-Weekly-Quota-and-Usage-Strategy/README.md)
+  - [BK-05: When to Use ChatGPT vs Codex vs API](./SR-03-ChatGPT-Models-and-Usage/BK-05-When-to-Use-ChatGPT-vs-Codex-vs-API/README.md)
