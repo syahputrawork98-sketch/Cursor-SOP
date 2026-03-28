@@ -19,6 +19,19 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 
 ### Notes
 - Penambahan ini membuka jalur specialization berbasis domain tanpa membuat `frontend`, `backend`, atau `database` menjadi `core mode` baru.
+
+## [2026-03-28] - Workspace Alignment: `.cursorrules` Audit-to-Implementation
+
+### New Features
+- Menyelaraskan file `.cursorrules` aktif repo dengan arsitektur rules yang sudah ditulis di `RAK-05 / SR-03`.
+- Menambahkan lapisan baru di `.cursorrules` untuk:
+  - `artifact governance`,
+  - `role and domain activation`,
+  - `review gates`,
+  - `local overrides` untuk workspace gabungan.
+
+### Notes
+- Perubahan ini dibuat agar praktik kerja di workspace sendiri benar-benar memakai prinsip yang sudah dijelaskan di buku-buku repo, bukan hanya mendokumentasikannya.
 ## [2026-03-28] - RAK-05 Addition: Structured Rules Architecture
 
 ### New Features
