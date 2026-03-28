@@ -64,6 +64,7 @@ Repo ini membedakan tiga lapisan agar istilah kerja AI tidak tercampur:
 
 - `RAK-02 / SR-02` untuk peta `core modes`, `extended modes`, dan update protocol.
 - `RAK-07 / SR-03` untuk `curator workflows` dan orkestrasi mode berdasarkan jenis kerja.
+- `RAK-07 / SR-04` untuk `domain AI profiles` dan lensa spesialis seperti database.
 
 ---
 
@@ -97,3 +98,5 @@ Cursor-SOP/
 ## Status
 
 Aktif. Mematuhi **PPM V6 Unified** sejak 2026-03.
+
+

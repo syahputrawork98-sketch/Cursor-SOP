@@ -4,6 +4,21 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 
 ---
 
+
+## [2026-03-28] - RAK-07 Expansion: Domain AI Profiles
+
+### New Features
+- Menambahkan `SR-04-Domain-AI-Profiles` di `RAK-07-Specialization`.
+- Menambahkan `BK-01-Database-AI-Profile` sebagai profile spesialis untuk:
+  - schema clarity,
+  - migration safety,
+  - rollback thinking,
+  - data integrity,
+  - consumer impact awareness.
+- Menambahkan penghubung eksplisit dari profile database ke template rules database di `RAK-05 / SR-03 / BK-08`.
+
+### Notes
+- Penambahan ini membuka jalur specialization berbasis domain tanpa membuat `frontend`, `backend`, atau `database` menjadi `core mode` baru.
 ## [2026-03-28] - RAK-05 Addition: Structured Rules Architecture
 
 ### New Features
@@ -180,6 +195,7 @@ Semua perubahan besar pada repositori ini dicatat di sini secara kronologis.
 - Two-Tier Architecture diimplementasikan (root Human-First + `TECHNICAL-CORE`).
 
 ---
+
 
 
 

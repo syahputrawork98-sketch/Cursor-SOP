@@ -77,7 +77,7 @@ Kalau kebutuhanmu adalah governance, workflow, orkestrasi, dan standar operasi A
 1. Mulai dari [RAK-00-The-Gateway](./RAK-00-The-Gateway/README.md) jika kamu butuh onboarding cepat.
 2. Baca [RAK-02-Foundation-Core-Rules](./RAK-02-Foundation-Core-Rules/README.md) untuk memahami hukum dasar.
 3. Masuk ke [RAK-03-Evolution-Interfacing](./RAK-03-Evolution-Interfacing/README.md) untuk blueprinting dan workflow umum.
-4. Gunakan [RAK-07-Specialization](./RAK-07-Specialization/README.md) untuk pola kerja spesialis, termasuk kurator workflow.
+4. Gunakan [RAK-07-Specialization](./RAK-07-Specialization/README.md) untuk pola kerja spesialis, termasuk kurator workflow dan domain AI profiles.
 5. Gunakan [RAK-09-AI-Arsenal](./RAK-09-AI-Arsenal/README.md) untuk pemilihan model, selector thinking, dan strategi kuota.
 
 ### File Inti yang Wajib Dipahami
@@ -96,7 +96,7 @@ Kalau kebutuhanmu adalah governance, workflow, orkestrasi, dan standar operasi A
 5. [RAK-04-Core-Mechanics-Internals](./RAK-04-Core-Mechanics-Internals/README.md): RAG, token, context, indexing.
 6. [RAK-05-Ecosystem-Tooling](./RAK-05-Ecosystem-Tooling/README.md): `.cursorrules`, tooling, tuning, integrasi, dan arsitektur rules bertingkat.
 7. [RAK-06-The-Underworld](./RAK-06-The-Underworld/README.md): prompt patterns, context anchoring, reasoning depth.
-8. [RAK-07-Specialization](./RAK-07-Specialization/README.md): multi-agent, review ritual, curator workflows.
+8. [RAK-07-Specialization](./RAK-07-Specialization/README.md): multi-agent, review ritual, curator workflows, dan domain AI profiles.
 9. [RAK-08-Matrix-Intersection](./RAK-08-Matrix-Intersection/README.md): sinkronisasi standar lintas proyek.
 10. [RAK-09-AI-Arsenal](./RAK-09-AI-Arsenal/README.md): pemilihan model, ChatGPT usage, quota strategy.
 
@@ -136,4 +136,5 @@ Status ringkas dapat dilihat di [status.md](./status.md).
 
 > Catatan
 > Repositori ini mengikuti governance **PPM V6 Unified** dan terus berkembang sebagai living document.
+
 

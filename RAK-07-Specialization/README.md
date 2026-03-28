@@ -1,12 +1,13 @@
-﻿# RAK-07: Specialization - Workflow Spesialis, Audit Berlapis, dan Kurator Kerja
+# RAK-07: Specialization - Workflow Spesialis, Audit Berlapis, dan Kurator Kerja
 
 ## Gampangnya...
 
-Kalau rak-rak sebelumnya mengajari hukum dasar dan cara kerja umum, maka `RAK-07` mengajari cara membuat AI bekerja seperti **spesialis**. Di sini AI tidak lagi diperlakukan sebagai satu tukang serba bisa, tetapi sebagai sistem kerja yang bisa dibagi per peran, per ritual, dan per jenis operasi.
+Kalau rak-rak sebelumnya mengajari hukum dasar dan cara kerja umum, maka `RAK-07` mengajari cara membuat AI bekerja seperti **spesialis**. Di sini AI tidak lagi diperlakukan sebagai satu tukang serba bisa, tetapi sebagai sistem kerja yang bisa dibagi per peran, per ritual, per jenis operasi, dan per domain kerja.
 
-Makanya isi rak ini sekarang punya dua wajah yang saling melengkapi:
+Makanya isi rak ini sekarang punya tiga wajah yang saling melengkapi:
 - pola kerja **multi-agent dan reviewer**,
-- pola kerja **kurator workflow** untuk creation, repair, refactor, dan documentation.
+- pola kerja **kurator workflow** untuk creation, repair, refactor, dan documentation,
+- pola **domain AI profiles** untuk frontend, backend, database, dan workspace lintas domain.
 
 ---
 
@@ -17,29 +18,34 @@ Begitu user mulai serius memakai AI untuk kerja teknis, masalahnya berubah. Buka
 - siapa yang mengkritik,
 - workflow mana yang dipakai,
 - kapan task harus diperlakukan sebagai pembangunan baru,
-- kapan ia harus diperlakukan sebagai pemulihan, pembenahan, atau dokumentasi.
+- kapan ia harus diperlakukan sebagai pemulihan, pembenahan, atau dokumentasi,
+- dan domain spesialis apa yang harus aktif agar AI tidak memakai lensa yang salah.
 
 Tanpa spesialisasi seperti ini, satu AI cenderung:
 - menilai karyanya sendiri terlalu lunak,
 - bugfix melebar menjadi refactor,
 - refactor menyamar sebagai rewrite,
-- dokumentasi tertinggal dan pengetahuan sesi hilang.
+- dokumentasi tertinggal dan pengetahuan sesi hilang,
+- atau schema change database diperlakukan seperti edit backend biasa.
 
 ---
 
 ## Cara Kerja
 
-### Dua Pilar Specialization
+### Tiga Pilar Specialization
 
 ```mermaid
 graph TD
     A[Task] --> B{Butuh spesialisasi apa?}
     B --> C[Role Specialization\nExecutor Reviewer Critic]
     B --> D[Workflow Specialization\nCreation Repair Refactor Documentation]
-    C --> E[Audit Berlapis]
-    D --> F[Kurator yang Tepat]
-    E --> G[Hasil Lebih Aman]
-    F --> G
+    B --> E[Domain Profiles\nFrontend Backend Database Workspace]
+    C --> F[Audit Berlapis]
+    D --> G[Kurator yang Tepat]
+    E --> H[Lensa yang Tepat]
+    F --> I[Hasil Lebih Aman]
+    G --> I
+    H --> I
 ```
 
 ### Peta Isi Rak
@@ -49,6 +55,7 @@ graph TD
 | **Multi-Agent Patterns** | Membagi kerja berdasarkan peran seperti executor, critic, reviewer |
 | **Review Rituals** | Memastikan hasil eksekusi diaudit sebelum dianggap selesai |
 | **Curator Workflows** | Memilih workflow yang tepat berdasarkan jenis operasi terhadap proyek |
+| **Domain AI Profiles** | Memberi lensa spesialis berdasarkan domain kerja seperti database |
 
 ---
 
@@ -59,6 +66,7 @@ RAK ini relevan ketika kamu mulai menghadapi pertanyaan seperti:
 - "Task ini creation, repair, refactor, atau documentation?"
 - "Bagaimana caranya agar AI tidak memeriksa pekerjaannya sendiri dengan terlalu lunak?"
 - "Kapan saya harus mengganti workflow, bukan cuma mengganti prompt?"
+- "Kapan saya harus mengaktifkan lensa database, bukan backend biasa?"
 
 Kalau masalahmu sudah naik dari level aturan dasar ke level **orkestrasi spesialis**, maka ini rak yang tepat.
 
@@ -99,11 +107,20 @@ Gunakan saat kamu perlu menentukan apakah task ini:
 - `Refactor`
 - `Documentation`
 
+### Jika Masalahmu Soal Domain Spesialis
+
+Masuk ke:
+- `SR-04: Domain AI Profiles`
+
+Gunakan saat kamu ingin membedakan lensa kerja frontend, backend, database, atau workspace lintas domain.
+
 ### Aturan Praktis
 
 - jangan pakai satu workflow untuk semua jenis tugas,
 - jangan biarkan executor menjadi hakim tunggal pekerjaannya sendiri,
-- jika task berubah tujuan di tengah jalan, klasifikasikan ulang secara sadar.
+- jangan jadikan domain profile sebagai `core mode` baru,
+- jika task berubah tujuan di tengah jalan, klasifikasikan ulang secara sadar,
+- jika resiko utamanya ada di layer data, aktifkan profile database secara eksplisit.
 
 ---
 
@@ -127,14 +144,15 @@ Pendekatan yang tepat:
 - pakai `Curator Workflow: Repair`
 - jika fix sudah stabil, tutup dengan ritual review dan documentation.
 
-**Skenario 3: Refactor besar**
+**Skenario 3: Perubahan schema penting**
 
 Task:
-"Rapikan modul ini tanpa mengubah behavior."
+"Tambahkan field baru yang dipakai dashboard dan reporting."
 
 Pendekatan yang tepat:
-- pakai `Curator Workflow: Refactor`
-- tambahkan audit reviewer agar perubahan tetap aman.
+- aktifkan `Database AI Profile`
+- audit consumer, migration, dan rollback dulu,
+- baru handoff ke backend atau frontend jika ada dampak lanjutan.
 
 ---
 
@@ -145,7 +163,8 @@ Pendekatan yang tepat:
 | **Satu AI, semua peran** | Executor sekaligus reviewer sekaligus critic tanpa batas | Pisahkan peran atau pakai role switching yang eksplisit |
 | **Satu workflow untuk semua task** | Task creation diperlakukan seperti bugfix atau sebaliknya | Klasifikasikan task sebelum eksekusi |
 | **Audit terlambat** | Review baru dilakukan saat semuanya sudah telanjur besar | Jadikan review sebagai ritual per fase |
-| **Kurator tidak dikenali** | AI masuk mode yang salah sejak awal | Gunakan template klasifikasi task di SR-03 |
+| **Kurator tidak dikenali** | AI masuk workflow yang salah sejak awal | Gunakan template klasifikasi task di SR-03 |
+| **Domain lens terlalu umum** | database dinilai seperti backend biasa | aktifkan profile domain yang tepat |
 
 ---
 
@@ -160,3 +179,5 @@ Pendekatan yang tepat:
   - [BK-02: Kurator untuk Perbaikan dan Bugfix](./SR-03-Curator-Workflows/BK-02-Kurator-untuk-Perbaikan-dan-Bugfix/README.md)
   - [BK-03: Kurator untuk Refactor dan Pembenahan](./SR-03-Curator-Workflows/BK-03-Kurator-untuk-Refactor-dan-Pembenahan/README.md)
   - [BK-04: Kurator untuk Dokumentasi dan Handover](./SR-03-Curator-Workflows/BK-04-Kurator-untuk-Dokumentasi-dan-Handover/README.md)
+- **SR-04: Domain AI Profiles**
+  - [BK-01: Database AI Profile](./SR-04-Domain-AI-Profiles/BK-01-Database-AI-Profile/README.md)
