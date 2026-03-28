@@ -88,6 +88,7 @@ Idenya: Cursor-SOP ini menjadi **standar pusat**. Setiap `.cursorrules` di proye
 | **Normalisasi berlebihan** | AI ingin ubah semua sekaligus | Batasi: "Buat daftar dulu, jangan ubah apapun" |
 | **Standar yang bertabrakan** | Proyek A butuh snake_case, Proyek B camelCase | Izinkan override lokal selama ada alasan di `.cursorrules` |
 | **Lupa update standar pusat** | SOP di sini outdated, proyek jalan sendiri | Jadwalkan review Cursor-SOP setiap bulan |
+| **Terlalu banyak artefak tanpa peta** | User bingung file mana yang authoritative | Pakai `artifact-map.md` sebagai artifact map ringan |
 
 ---
 
@@ -95,3 +96,5 @@ Idenya: Cursor-SOP ini menjadi **standar pusat**. Setiap `.cursorrules` di proye
 - **SR-01: Consistency Management**
   - [BK-01: Centralized SOP Management](./SR-01-Consistency-Management/BK-01-Centralized-SOP-Management/README.md)
   - [BK-02: Sync Protocols](./SR-01-Consistency-Management/BK-02-Sync-Protocols/README.md)
+  - [BK-03: Template `artifact-map.md` untuk Artifact Governance](./SR-01-Consistency-Management/BK-03-Template-Artifact-Map-untuk-Artifact-Governance/README.md)
+

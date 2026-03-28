@@ -132,6 +132,17 @@ AI (SALAH): [Langsung menulis kode]
   - BK-01: Global vs Project Rules
   - BK-02: Rule Hierarchy and Precedence
   - BK-03: Anti-Offside Pattern Collection
+- **SR-03: Structured Rules Architecture**
+  - [BK-01: Blueprint Standar `.cursorrules` Bertingkat](./SR-03-Structured-Rules-Architecture/BK-01-Blueprint-Standar-cursorrules-Bertingkat/README.md)
+  - [BK-02: Global Rules vs Local Rules](./SR-03-Structured-Rules-Architecture/BK-02-Global-Rules-vs-Local-Rules/README.md)
+  - [BK-03: Artifact Governance di Dalam `.cursorrules`](./SR-03-Structured-Rules-Architecture/BK-03-Artifact-Governance-di-Dalam-cursorrules/README.md)
+  - [BK-04: Activation Rules untuk Role Packs dan Review Lenses](./SR-03-Structured-Rules-Architecture/BK-04-Activation-Rules-untuk-Role-Packs-dan-Review-Lenses/README.md)
+  - [BK-05: Template `.cursorrules` untuk Project Frontend](./SR-03-Structured-Rules-Architecture/BK-05-Template-cursorrules-untuk-Project-Frontend/README.md)
+  - [BK-06: Template `.cursorrules` untuk Project Backend](./SR-03-Structured-Rules-Architecture/BK-06-Template-cursorrules-untuk-Project-Backend/README.md)
+  - [BK-07: Template .cursorrules untuk Workspace Gabungan](./SR-03-Structured-Rules-Architecture/BK-07-Template-cursorrules-untuk-Workspace-Gabungan/README.md)
+  - [BK-08: Template .cursorrules untuk Project Database](./SR-03-Structured-Rules-Architecture/BK-08-Template-cursorrules-untuk-Project-Database/README.md)
 - **SR-02: External AI Tooling**
   - BK-01: CLI for Agentic Workflows
   - BK-02: Automated Testing Integrations
+
+

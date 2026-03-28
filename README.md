@@ -94,7 +94,7 @@ Kalau kebutuhanmu adalah governance, workflow, orkestrasi, dan standar operasi A
 3. [RAK-02-Foundation-Core-Rules](./RAK-02-Foundation-Core-Rules/README.md): hukum dasar dan batas interaksi.
 4. [RAK-03-Evolution-Interfacing](./RAK-03-Evolution-Interfacing/README.md): blueprinting, workflow, dan sinkronisasi visi.
 5. [RAK-04-Core-Mechanics-Internals](./RAK-04-Core-Mechanics-Internals/README.md): RAG, token, context, indexing.
-6. [RAK-05-Ecosystem-Tooling](./RAK-05-Ecosystem-Tooling/README.md): `.cursorrules`, tooling, tuning, dan integrasi.
+6. [RAK-05-Ecosystem-Tooling](./RAK-05-Ecosystem-Tooling/README.md): `.cursorrules`, tooling, tuning, integrasi, dan arsitektur rules bertingkat.
 7. [RAK-06-The-Underworld](./RAK-06-The-Underworld/README.md): prompt patterns, context anchoring, reasoning depth.
 8. [RAK-07-Specialization](./RAK-07-Specialization/README.md): multi-agent, review ritual, curator workflows.
 9. [RAK-08-Matrix-Intersection](./RAK-08-Matrix-Intersection/README.md): sinkronisasi standar lintas proyek.
@@ -136,3 +136,4 @@ Status ringkas dapat dilihat di [status.md](./status.md).
 
 > Catatan
 > Repositori ini mengikuti governance **PPM V6 Unified** dan terus berkembang sebagai living document.
+

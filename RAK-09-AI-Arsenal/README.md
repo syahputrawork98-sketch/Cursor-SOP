@@ -97,14 +97,16 @@ Gunakan sub-rak ini saat kamu ingin memahami:
 - model yang relevan di ChatGPT,
 - selector thinking,
 - strategi kuota mingguan,
-- dan batas antara ChatGPT, Codex, serta API.
+- batas antara ChatGPT, Codex, serta API,
+- dan cara memakai `Projects + file .md terpisah` agar kerja panjang di ChatGPT tidak hanya bergantung pada context window.
 
 ### SR-04: Antigravity Model Optimization
 
 Gunakan sub-rak ini saat kamu memakai platform multi-model seperti Antigravity dan perlu menjawab:
 - model mana yang paling tepat untuk task tertentu,
 - kapan harus memakai model premium dan kapan cukup model hemat,
-- bagaimana membagi beban kerja agar kuota tidak cepat habis.
+- bagaimana membagi beban kerja agar kuota tidak cepat habis,
+- dan bagaimana menjaga `tasks`, `implementation plan`, serta progres aktual tetap sinkron saat memakai model cepat seperti `Gemini Flash`.
 
 ---
 
@@ -150,6 +152,8 @@ AI Arsenal bukan soal memakai model termahal terus-menerus, tapi soal **mengatur
   - [BK-03: Thinking Selector Guide](./SR-03-ChatGPT-Models-and-Usage/BK-03-Thinking-Selector-Guide/README.md)
   - [BK-04: Weekly Quota and Usage Strategy](./SR-03-ChatGPT-Models-and-Usage/BK-04-Weekly-Quota-and-Usage-Strategy/README.md)
   - [BK-05: When to Use ChatGPT vs Codex vs API](./SR-03-ChatGPT-Models-and-Usage/BK-05-When-to-Use-ChatGPT-vs-Codex-vs-API/README.md)
+  - [BK-06: ChatGPT Projects dan Artefak Kerja](./SR-03-ChatGPT-Models-and-Usage/BK-06-ChatGPT-Projects-dan-Artefak-Kerja/README.md)
+  - [BK-07: Template Artefak Workflow untuk ChatGPT Projects](./SR-03-ChatGPT-Models-and-Usage/BK-07-Template-Artefak-Workflow-untuk-ChatGPT-Projects/README.md)
 - **SR-04: Antigravity Model Optimization**
   - [BK-01: Antigravity Model Landscape](./SR-04-Antigravity-Model-Optimization/BK-01-Antigravity-Model-Landscape/README.md)
   - [BK-02: Gemini Family in Antigravity](./SR-04-Antigravity-Model-Optimization/BK-02-Gemini-Family-in-Antigravity/README.md)
@@ -157,3 +161,5 @@ AI Arsenal bukan soal memakai model termahal terus-menerus, tapi soal **mengatur
   - [BK-04: GPT-OSS and Economy Models](./SR-04-Antigravity-Model-Optimization/BK-04-GPT-OSS-and-Economy-Models/README.md)
   - [BK-05: Quota Strategy and Task Routing](./SR-04-Antigravity-Model-Optimization/BK-05-Quota-Strategy-and-Task-Routing/README.md)
   - [BK-06: Playbook Pemilihan Model per Jenis Kerja](./SR-04-Antigravity-Model-Optimization/BK-06-Playbook-Pemilihan-Model-per-Jenis-Kerja/README.md)
+  - [BK-07: Sinkronisasi Task, Implementation Plan, dan Tracker](./SR-04-Antigravity-Model-Optimization/BK-07-Sinkronisasi-Task-Implementation-Plan-dan-Tracker/README.md)
+  - [BK-08: Template Artefak Workflow untuk Gemini Flash](./SR-04-Antigravity-Model-Optimization/BK-08-Template-Artefak-Workflow-untuk-Gemini-Flash/README.md)

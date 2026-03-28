@@ -26,6 +26,7 @@ Begitu platform AI mulai menggabungkan banyak model di satu tempat, cara kerja u
 - model ini cocok untuk blueprint, execute, review, atau debug?
 - apakah saya sedang membayar kualitas, atau hanya membayar prestige?
 - bagaimana menjaga model premium tetap tersedia untuk kerja yang memang penting?
+- bagaimana menjaga `tasks`, `implementation plan`, dan status kerja tetap sinkron?
 
 Sub-rak ini dibuat untuk menjawab kebutuhan itu dalam konteks Antigravity: sebuah lingkungan kerja multi-model yang perlu disiplin routing, bukan sekadar selera model.
 
@@ -61,6 +62,7 @@ Gunakan sub-rak ini saat kamu mengalami salah satu kondisi berikut:
 - kuota cepat habis,
 - semua task terasa ingin dinaikkan ke model premium,
 - ingin tahu model mana yang cocok untuk blueprint, review, debug, atau execute.
+- ingin mencegah model cepat seperti `Gemini Flash` offside karena task dan plan tidak sinkron.
 
 Kalau kamu ingin memakai lineup model Antigravity secara strategis, mulai dari sub-rak ini.
 
@@ -74,6 +76,8 @@ Kalau kamu ingin memakai lineup model Antigravity secara strategis, mulai dari s
 2. Baca [BK-05: Quota Strategy and Task Routing](./BK-05-Quota-Strategy-and-Task-Routing/README.md) agar cara berpikir penghematan kuotanya benar dulu.
 3. Masuk ke [BK-02](./BK-02-Gemini-Family-in-Antigravity/README.md), [BK-03](./BK-03-Claude-Family-in-Antigravity/README.md), dan [BK-04](./BK-04-GPT-OSS-and-Economy-Models/README.md) sesuai keluarga model yang ingin kamu pahami.
 4. Gunakan [BK-06: Playbook Pemilihan Model per Jenis Kerja](./BK-06-Playbook-Pemilihan-Model-per-Jenis-Kerja/README.md) sebagai cheat sheet operasional harian.
+5. Gunakan [BK-07: Sinkronisasi Task, Implementation Plan, dan Tracker](./BK-07-Sinkronisasi-Task-Implementation-Plan-dan-Tracker/README.md) jika kamu memakai model cepat dan ingin progres kerja tetap tertib.
+6. Gunakan [BK-08: Template Artefak Workflow untuk Gemini Flash](./BK-08-Template-Artefak-Workflow-untuk-Gemini-Flash/README.md) jika kamu ingin format siap pakai untuk proyek nyata.
 
 ### Prinsip Dasar
 
@@ -121,3 +125,5 @@ Antigravity paling kuat saat kamu memperlakukan model seperti tim dengan peran b
 - [BK-04: GPT-OSS and Economy Models](./BK-04-GPT-OSS-and-Economy-Models/README.md)
 - [BK-05: Quota Strategy and Task Routing](./BK-05-Quota-Strategy-and-Task-Routing/README.md)
 - [BK-06: Playbook Pemilihan Model per Jenis Kerja](./BK-06-Playbook-Pemilihan-Model-per-Jenis-Kerja/README.md)
+- [BK-07: Sinkronisasi Task, Implementation Plan, dan Tracker](./BK-07-Sinkronisasi-Task-Implementation-Plan-dan-Tracker/README.md)
+- [BK-08: Template Artefak Workflow untuk Gemini Flash](./BK-08-Template-Artefak-Workflow-untuk-Gemini-Flash/README.md)

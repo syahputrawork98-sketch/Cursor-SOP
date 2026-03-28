@@ -41,6 +41,8 @@ Yang dibahas hanya sebagai pembanding:
 3. Baca [BK-03: Thinking Selector Guide](./BK-03-Thinking-Selector-Guide/README.md) jika kamu bingung kapan memilih Light, Standard, Extended, atau Heavy.
 4. Gunakan [BK-04: Weekly Quota and Usage Strategy](./BK-04-Weekly-Quota-and-Usage-Strategy/README.md) untuk menjaga jatah mingguan tetap efisien.
 5. Tutup dengan [BK-05: When to Use ChatGPT vs Codex vs API](./BK-05-When-to-Use-ChatGPT-vs-Codex-vs-API/README.md) agar batas produknya jelas.
+6. Gunakan [BK-06: ChatGPT Projects dan Artefak Kerja](./BK-06-ChatGPT-Projects-dan-Artefak-Kerja/README.md) jika kamu ingin kerja multi-sesi yang tidak hanya mengandalkan context window.
+7. Gunakan [BK-07: Template Artefak Workflow untuk ChatGPT Projects](./BK-07-Template-Artefak-Workflow-untuk-ChatGPT-Projects/README.md) jika kamu ingin paket template siap pakai.
 
 ---
 
@@ -51,6 +53,8 @@ Yang dibahas hanya sebagai pembanding:
 - [BK-03: Thinking Selector Guide](./BK-03-Thinking-Selector-Guide/README.md)
 - [BK-04: Weekly Quota and Usage Strategy](./BK-04-Weekly-Quota-and-Usage-Strategy/README.md)
 - [BK-05: When to Use ChatGPT vs Codex vs API](./BK-05-When-to-Use-ChatGPT-vs-Codex-vs-API/README.md)
+- [BK-06: ChatGPT Projects dan Artefak Kerja](./BK-06-ChatGPT-Projects-dan-Artefak-Kerja/README.md)
+- [BK-07: Template Artefak Workflow untuk ChatGPT Projects](./BK-07-Template-Artefak-Workflow-untuk-ChatGPT-Projects/README.md)
 
 ---
 
@@ -68,4 +72,6 @@ Supaya sub-rak ini tetap sehat sebagai living document:
 
 - OpenAI Help Center: https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt/
 - OpenAI Help Center: https://help.openai.com/en/articles/20001051
+- OpenAI Help Center: https://help.openai.com/en/articles/10169521
+- OpenAI Help Center: https://help.openai.com/en/articles/9309188-add-files-from-connected-apps-in-chatgpt
 - OpenAI API Docs: https://platform.openai.com/docs/models
